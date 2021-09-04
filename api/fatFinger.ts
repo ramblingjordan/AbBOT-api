@@ -114,6 +114,8 @@ export const fatFinger = (input: string): string => {
         case '0':
             letters = [`9`, `-`, `p`, `o`]
             break
+        case `'`:
+            letters = [`;`, `[`, `]`, `/`]
     }
     // replace the character at the random index with a random letter
     const output = input.replace(randomCharacter, letters[Math.floor(Math.random() * letters.length)])
