@@ -1,5 +1,3 @@
-// a series of potential fat-finger swaps
-
 // a function to simulate adding typos to a string
 
 export const fatFinger = (input: string): string => {
