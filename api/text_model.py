@@ -321,7 +321,7 @@ def create_anonymous_form_batch(prompt_text='Dear Gov. Abbott,', batch_size=5):
             'text-4': str(random.randint(10000, 99999)),
             'text-5': county,
             'hidden-1': random.choice(ips) + str(random.randint(0, 255)),
-            'checkbox-1[]': 'yes' if random.choice([True, False]) else 'no',
+            'checkbox-1[]': 'no',
         }
         form_batch.append(form_data)
     return form_batch
