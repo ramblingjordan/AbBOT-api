@@ -9,6 +9,9 @@ from faker import Faker
 from loguru import logger
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
+from nltk import sent_tokenize
+import locationtagger
+
 
 MODEL_NAME = os.environ.get('MODEL_NAME', 'gpt2')
 
@@ -66,6 +69,14 @@ ips = [
 ]
 # random element from each list
 
+# Replacement -> replace the key text with the value text
+# These are replaced in the order they appear here
+text_replacements = {
+    "<|endoftext|>": "",
+    "\nAdvertisement\n": "",
+    "[pullquote]": "",
+    "\n": " "
+}
 
 def sign_up_page():
     raise NotImplementedError()
@@ -152,8 +163,34 @@ def generate_text(prompt_text: str, k=50, p=0.9, seq_length=150, seed=None, temp
 
     return generated_sequences
 
+# Do post-processing to improve automatically generated text
+def clean_text(text, city):
+    # Do some simple replacements as specified above
+    for k, v in text_replacements.items():
+        text = text.replace(k, v)
 
-def create_anonymous_form_batch(prompt_text='Dear Gov. Abbott,', batch_size=5):
+    try:
+        # Make sure this ends at the end of a sentence
+        text = " ".join(sent_tokenize(text)[:-1])
+
+        # Remove any unicode that might be hanging around
+        text = text.encode("ascii", "ignore").decode()
+
+        # Replace references to locations to match the following: country - America, state - Texas, city - matching reported city
+        place = locationtagger.find_locations(text=text)
+        for country in place.countries:
+            text = text.replace(country, "America")
+        for state in place.regions:
+            text = text.replace(state, "Texas")
+        for old_city in place.cities:
+            text = text.replace(old_city, city)
+    except Exception as e:
+        print(e, flush=True)
+
+    return text
+
+
+def create_anonymous_form_batch(prompt_text='Recently I saw someone go to an abortion clinic', batch_size=5):
 
     # Used for fake name generation
     fake = Faker(['en_US', 'es_MX'])
@@ -163,8 +200,9 @@ def create_anonymous_form_batch(prompt_text='Dear Gov. Abbott,', batch_size=5):
     form_batch = []
     for i in range(batch_size):
         city, county = random.choice(list(cities.items()))
+        cleaned_text = clean_text(text_sequences[i], city)
         form_data = {
-            'textarea-1': text_sequences[i],
+            'textarea-1': cleaned_text,
             'text-1': random.choice(info_location),
             'text-6': 'Dr. ' + fake.name(),
             'text-2': city,

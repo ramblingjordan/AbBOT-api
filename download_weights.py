@@ -4,7 +4,15 @@ import tempfile
 import requests
 
 from tqdm.auto import tqdm
+import nltk
+nltk.downloader.download('maxent_ne_chunker')
+nltk.downloader.download('words')
+nltk.downloader.download('treebank')
+nltk.downloader.download('maxent_treebank_pos_tagger')
+nltk.downloader.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 
+import text_model
 
 # Pre-trained weights for /pol GPT-2 Model
 WEIGHTS_URL = 'http://www.dropbox.com/s/s7k50558gg2ircl/weights_and_vocab.zip?dl=1'
@@ -46,7 +54,9 @@ def download_and_extract_zipfile(url, dest_path):
 
 def main():
     download_and_extract_zipfile(WEIGHTS_URL, 'weights')
-
+    # This makes sure all of the weights are downloaded 
+    # for the default model, speeding up initialization
+    text_model.generate_text(prompt_text="test")
 
 if __name__ == "__main__":
     main()
