@@ -305,7 +305,7 @@ def generate_text(prompt_text: str, k=50, p=0.9, seq_length=150, seed=None, temp
 def create_anonymous_form_batch(prompt_text='Dear Gov. Abbott,', batch_size=5):
 
     # Used for fake name generation
-    fake = Faker('en_US')
+    fake = Faker(['en_US', 'es_MX'])
 
     text_sequences = generate_text(prompt_text, num_return_sequences=batch_size)
 
