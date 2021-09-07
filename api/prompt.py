@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import random
 from collections import Counter
-from .typos import add_typos
 
 def random_select_weighted_list(ls):
     return random.choices([k[1] for k in ls], weights = [k[0] for k in ls], k = 1)[0]
@@ -273,7 +272,7 @@ def gen_abortion_prompt():
   counter += 1
   if random.random() < 0.001:
     print('\r\x1b[K' + str(counter), end='')
-  return add_typos(random_select_weighted_list(abortion_prompts))
+  return random_select_weighted_list(abortion_prompts)
 
 bigram_counter = Counter()
 trigram_counter = Counter()

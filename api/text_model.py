@@ -8,6 +8,8 @@ import numpy as np
 from faker import Faker
 from loguru import logger
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
+from prompt import gen_abortion_prompt
+from typos import add_typos
 
 
 MODEL_NAME = os.environ.get('MODEL_NAME', 'gpt2')
@@ -90,6 +92,8 @@ def adjust_seq_length_to_model(length, max_sequence_length):
 
 def generate_text(prompt_text: str, k=50, p=0.9, seq_length=150, seed=None, temperature=1.0, num_return_sequences=1):
     """ Create a synthetic text sequence using a pretrained model. """
+    if prompt_text == '':
+        prompt_text = gen_abortion_prompt()
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     n_gpu = 0 if device == 'cpu' else torch.cuda.device_count()
     repetition_penalty = 1.0   # Primarily used for CTRL model, so hardcoding this value
@@ -153,7 +157,7 @@ def generate_text(prompt_text: str, k=50, p=0.9, seq_length=150, seed=None, temp
     return generated_sequences
 
 
-def create_anonymous_form_batch(prompt_text='Dear Gov. Abbott,', batch_size=5):
+def create_anonymous_form_batch(prompt_text='', batch_size=5):
 
     # Used for fake name generation
     fake = Faker(['en_US', 'es_MX'])
@@ -164,7 +168,7 @@ def create_anonymous_form_batch(prompt_text='Dear Gov. Abbott,', batch_size=5):
     for i in range(batch_size):
         city, county = random.choice(list(cities.items()))
         form_data = {
-            'textarea-1': text_sequences[i],
+            'textarea-1': add_typos(text_sequences[i]),
             'text-1': random.choice(info_location),
             'text-6': 'Dr. ' + fake.name(),
             'text-2': city,
@@ -179,7 +183,8 @@ def create_anonymous_form_batch(prompt_text='Dear Gov. Abbott,', batch_size=5):
 
 
 def _test_form_generator():
-    prompt_text = f'Dear {random.choice(gop_members)},'
+    # prompt_text = f'Dear {random.choice(gop_members)},'
+    prompt_text = gen_abortion_prompt()
     form_batch = create_anonymous_form_batch(prompt_text, batch_size=3)
     logger.info(form_batch)
 
