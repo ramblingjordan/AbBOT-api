@@ -19,21 +19,29 @@ def add_typos(in_str, typo_odds = -1, space_typo_odds = -1, lowercase_odds = -1,
   #global space_data
   #global punct_data
   if typo_odds < 0:
-    typo_odds = gen_typo_odds()
+    if random.random() < 0.1:
+      typo_odds = 0.0
+    else:
+      typo_odds = gen_typo_odds()
   #  typo_data.append(typo_odds)
   if space_typo_odds < 0:
-    space_typo_odds = gen_typo_odds() / 1.5
+    space_typo_odds = gen_typo_odds() / 2.0
   #  space_data.append(space_typo_odds)
   if lowercase_odds < 0:
-    lowercase_odds = gen_typo_odds()
-  uppercase_odds = gen_typo_odds()
+    lowercase_odds = random.random()
+  uppercase_odds = random.random()
   if punct_typo_odds < 0:
-    punct_typo_odds = gen_typo_odds() + typo_odds ** 0.5
+    punct_typo_odds = (gen_typo_odds() + typo_odds ** 0.5) / 2.0
   #  punct_data.append(punct_typo_odds)
+  in_str = re.sub('ies ', '\u2605 ', in_str)
+  in_str = re.sub('es ', '\u2604 ', in_str)
+  in_str = re.sub('ie ', '\u2606 ', in_str)
+  in_str = re.sub('ie', '\u2603', in_str)
+  in_str = re.sub('ei', '\u2602', in_str)
   # Outside of English transliterations, the letter 'q' is always followed by
   # a 'u'. By combining them into one letter, typos are easier to introduce.
-  in_str = re.sub('qu', 'q', in_str)
-  in_str = re.sub("'s", "'", in_str)
+  in_str = re.sub('qu', '\u2601', in_str)
+  in_str = re.sub("'s", "\u2600", in_str)
   sub_dict = {
     'a': [
       # First element is always 1 - typo_odds and it's always the correct
@@ -116,9 +124,10 @@ def add_typos(in_str, typo_odds = -1, space_typo_odds = -1, lowercase_odds = -1,
       (0.5 * typo_odds, 'b'),
       (0.2 * typo_odds, 'o'),
     ],
-    'q': [
+    '\u2601': [
       (1 - typo_odds, 'qu'),
-      (0.8 * typo_odds, 'kw'),
+      (0.9 * typo_odds, 'kw'),
+      (0.1 * typo_odds, 'q'),
     ],
     'r': [
       (1 - typo_odds, 'r'),
@@ -127,8 +136,6 @@ def add_typos(in_str, typo_odds = -1, space_typo_odds = -1, lowercase_odds = -1,
     ],
     's': [
       (1 - typo_odds, 's'),
-      (0.1 * typo_odds, 'sh'),
-      (0.2 * typo_odds, 'c'),
       (0.2 * typo_odds, 'z')
     ],
     't': [
@@ -167,6 +174,26 @@ def add_typos(in_str, typo_odds = -1, space_typo_odds = -1, lowercase_odds = -1,
       (0.9 * typo_odds, 's'),
       (0.05 * typo_odds, 'x')
     ],
+    "\u2602": [
+      (1 - typo_odds, 'ei'),
+      (1.0 * typo_odds, 'ie')
+    ],
+    "\u2603": [
+      (1 - typo_odds, 'ie'),
+      (1.0 * typo_odds, 'ei')
+    ],
+    "\u2604": [
+      (1 - typo_odds, 'es'),
+      (1.0 * typo_odds, 's')
+    ],
+    "\u2605": [
+      (1 - typo_odds, 'ies'),
+      (1.0 * typo_odds, 'ys')
+    ],
+    "\u2606": [
+      (1 - typo_odds, 'ie'),
+      (1.0 * typo_odds, 'y')
+    ],
     ',': [
       (1 - punct_typo_odds, ','),
       (0.9 * punct_typo_odds, ''),
@@ -179,12 +206,16 @@ def add_typos(in_str, typo_odds = -1, space_typo_odds = -1, lowercase_odds = -1,
       (0.01 * punct_typo_odds, '>'),
       (0.3 * punct_typo_odds, ','),
     ],
-    "'": [
+    "\u2600": [
       (1 - punct_typo_odds, "'s"),
       (0.7 * punct_typo_odds, "s"),
       (0.1 * punct_typo_odds, "s'"),
       (0.2 * punct_typo_odds, "'")
     ],
+    "'": [
+      (1 - punct_typo_odds, "'"),
+      (1.0 * punct_typo_odds, "")
+    ]
   }
   space_subs = [
     (1 - space_typo_odds, ' '),
@@ -203,7 +234,7 @@ def add_typos(in_str, typo_odds = -1, space_typo_odds = -1, lowercase_odds = -1,
       continue
     for k in word:
       if k in sub_dict:
-        if k == prev_char_in:
+        if k == prev_char_in and random.random() > typo_odds:
           out_word += prev_char_out
         else:
           prev_char_out = random_select_weighted_list(sub_dict[k])
@@ -215,9 +246,9 @@ def add_typos(in_str, typo_odds = -1, space_typo_odds = -1, lowercase_odds = -1,
       misspelled_words[word] = out_word
     out_words.append(out_word)
   intermediate_str = ' '.join(out_words)
-  if lowercase_odds < 0.2:
+  if lowercase_odds < 0.1:
     intermediate_str = intermediate_str.lower()
-  elif uppercase_odds < 0.5:
+  elif uppercase_odds < 0.1:
     intermediate_str = intermediate_str.upper()
   out_str = ''
   for k in intermediate_str:
