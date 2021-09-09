@@ -5,7 +5,7 @@ This implements a dockerized version of GPT2 optimized for "impolite" text gener
 To help prevent abuse, the code here is for inference only using pretrained weights (weights automatically download
 when building container).
 
-# Quickstart
+## Quickstart
 
 First, build the docker image.
 
@@ -52,3 +52,9 @@ You should get an output response like below that contains a list of the forms (
     "status": 200
 }]
 ```
+
+## Attribution
+
+### TX Zip Codes
+
+Original csv file with zip code data obtained from [simplemaps](https://simplemaps.com/data/us-zips), under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/). Data for all TX zip codes was pulled from the csv file and formatted to JSON in the txzips.json file.
