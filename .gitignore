@@ -1,7 +1,5 @@
-.idea
-
-# Created by https://www.toptal.com/developers/gitignore/api/python,linux,macos,windows,jupyternotebooks,pycharm,eclipse,visualstudiocode,intellij
-# Edit at https://www.toptal.com/developers/gitignore?templates=python,linux,macos,windows,jupyternotebooks,pycharm,eclipse,visualstudiocode,intellij
+# Created by https://www.toptal.com/developers/gitignore/api/python,linux,macos,windows,pycharm,eclipse,visualstudiocode,intellij
+# Edit at https://www.toptal.com/developers/gitignore?templates=python,linux,macos,windows,pycharm,eclipse,visualstudiocode,intellij
 
 ### Eclipse ###
 .metadata
@@ -174,20 +172,6 @@ fabric.properties
 # CodeStream plugin
 # https://plugins.jetbrains.com/plugin/12206-codestream
 .idea/codestream.xml
-
-### JupyterNotebooks ###
-# gitignore template for Jupyter Notebooks
-# website: http://jupyter.org/
-
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
-
-# IPython
-profile_default/
-ipython_config.py
-
-# Remove previous ipynb_checkpoints
-#   git rm -r .ipynb_checkpoints/
 
 ### Linux ###
 *~
@@ -382,8 +366,11 @@ docs/_build/
 target/
 
 # Jupyter Notebook
+.ipynb_checkpoints
 
 # IPython
+profile_default/
+ipython_config.py
 
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
@@ -482,4 +469,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/python,linux,macos,windows,jupyternotebooks,pycharm,eclipse,visualstudiocode,intellij
+# End of https://www.toptal.com/developers/gitignore/api/python,linux,macos,windows,pycharm,eclipse,visualstudiocode,intellij
+
+weights/

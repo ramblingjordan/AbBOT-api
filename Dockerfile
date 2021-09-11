@@ -13,10 +13,11 @@ RUN pip install --no-cache-dir -r requirements.txt \
     && rm requirements.txt
 
 # Move into app working directory and copy in files
-WORKDIR /workspace/project/api
 COPY ./api /workspace/project/api
+COPY ./helpers /workspace/project/helpers
+COPY ./main.py /workspace/project/main.py
 
 # Port to serve inference engine on
 EXPOSE 5000
 
-CMD ["python", "api.py"]
+CMD ["python", "main.py"]
