@@ -1,13 +1,12 @@
 from os import path, environ, _exit as exit
 from glob import glob
 from flask import Flask
-from flask_restful import Resource, Api
+from flask_restful import Resource, Api, HTTPException
 from typing import Callable, Mapping, NoReturn, Optional, Tuple, TypedDict
-from flask_restful import HTTPException
 from loguru import logger
 from torch._C import Value
 from werkzeug.wrappers.response import Response
-from helpers.typing import JSONType
+from helpers.typing import APIMapping, JSONType
 
 HOST: str = environ.get('API_HOST', '0.0.0.0')
 PORT: int = int(environ.get('API_PORT', 5000))
@@ -34,7 +33,7 @@ def create_generator_resource(name: str, api_function: Callable[[], JSONType]) -
 
 class GeneratorAPIInfo(TypedDict):
   name: str
-  api: Mapping[str, Callable[[], JSONType]]
+  api: APIMapping
 
 
 def get_generator_api(name) -> GeneratorAPIInfo:

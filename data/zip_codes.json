@@ -763,7 +763,7 @@
     "75069": {
       "latitude": "33.16545",
       "longitude": "-96.59468",
-      "city": "Mckinney",
+      "city": "McKinney",
       "stateid": "TX",
       "statename": "Texas",
       "zcta": "TRUE",
@@ -782,7 +782,7 @@
     "75070": {
       "latitude": "33.17311",
       "longitude": "-96.69773",
-      "city": "Mckinney",
+      "city": "McKinney",
       "stateid": "TX",
       "statename": "Texas",
       "zcta": "TRUE",
@@ -801,7 +801,7 @@
     "75071": {
       "latitude": "33.24663",
       "longitude": "-96.62898",
-      "city": "Mckinney",
+      "city": "McKinney",
       "stateid": "TX",
       "statename": "Texas",
       "zcta": "TRUE",
@@ -1276,7 +1276,7 @@
     "75115": {
       "latitude": "32.59888",
       "longitude": "-96.86374",
-      "city": "Desoto",
+      "city": "DeSoto",
       "stateid": "TX",
       "statename": "Texas",
       "zcta": "TRUE",
@@ -26470,7 +26470,7 @@
     "78501": {
       "latitude": "26.21583",
       "longitude": "-98.23917",
-      "city": "Mcallen",
+      "city": "McAllen",
       "stateid": "TX",
       "statename": "Texas",
       "zcta": "TRUE",
@@ -26489,7 +26489,7 @@
     "78503": {
       "latitude": "26.16531",
       "longitude": "-98.24764",
-      "city": "Mcallen",
+      "city": "McAllen",
       "stateid": "TX",
       "statename": "Texas",
       "zcta": "TRUE",
@@ -26508,7 +26508,7 @@
     "78504": {
       "latitude": "26.27199",
       "longitude": "-98.23657",
-      "city": "Mcallen",
+      "city": "McAllen",
       "stateid": "TX",
       "statename": "Texas",
       "zcta": "TRUE",

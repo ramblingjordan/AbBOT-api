@@ -21,44 +21,8 @@ except KeyError:
 
 MAX_LENGTH = int(10000)  # Hardcoded max length to avoid infinite loop
 
-cities = {
-  'Arlington': 'Tarrant County',
-  'Austin': 'Travis County',
-  'Corpus Christi': 'Nueces County',
-  'Dallas': 'Collin County',
-  'El Paso': 'El Paso County',
-  'Fort Worth': 'Denton County',
-  'Garland': 'Collin County',
-  'Houston': 'Fort Bend County',
-  'Irving': 'Dallas County',
-  'Laredo': 'Webb County',
-  'Lubbock': 'Lubbock County',
-  'Plano': 'Collin County',
-  'San Antonio': 'Bexar County'
-}
-
-gop_members = [
-  'Gary VanDeaver', 'Bryan Slaton', 'Cecil Bell Jr.', 'Keith Bell', 'Cole Hefner', 'Matt Schaefer', 'Jay Dean', 'Cody Harris',
-  'Chris Paddie', 'Travis Clardy', 'Kyle Kacal', 'Ben Leman', 'John N. Raney', 'Steve Toth', 'Will Metcalf', 'John Cyrier', 'Ernest Bailes',
-  'James White', 'Terry Wilson', 'Dade Phelan', 'Mayes Middleton', 'Greg Bonnen', 'Cody Vasut', 'Brooks Landgraf', 'Tom Craddick',
-  'Dustin Burrows', 'John Frullo', 'Phil Stephenson', 'John T. Smithee', 'Four Price', 'Ken King', 'Candy Noble', 'Stephanie Klick',
-  'Jeff Cason', 'Matt Krause', 'Tony Tinderholt', 'David Cook', 'Craig Goldman', 'Giovanni Capriglione', 'Charlie Geren', 'Sam Harless',
-  'Dan Huberty', 'Briscoe Cain', 'Dennis Paul', 'Tom Oliverson', 'Mike Schofield'
-]
-firstNames = ['Hannah', 'Olivia', 'Marcia', 'Sarah', 'Tara', 'Brooke', 'Wanda', 'Andrea', 'Julie']
-lastNames = ['Morgan', 'Walker', 'Lewis', 'Butler', 'Jones', 'Barnes', 'Martin', 'Wright', 'Foster']
-
 info_location = [
   'A friend saw them', 'I work at the clinic', 'I know his secretary', 'He told me at the club', 'The police report', 'His wife told me'
-]
-
-# TX IPs gathered from here: https://www.xmyip.com/ip-addresses/united--states/texas
-ips = [
-  "15.180.224.",  # San Antonio
-  "15.155.5.",  # San Antonio
-  "15.153.133.",  # San Antonio
-  "12.56.225.",  # Dallas
-  "67.10.46."  # Edinburg
 ]
 
 
