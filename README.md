@@ -120,4 +120,4 @@ Date: Sat, 11 Sep 2021 23:03:46 GMT
 
 ## Attribution
 
-- Texas ZIP code data was obtained from [SimpleMaps](https://simplemaps.com/data/us-zips), under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/).
+- Texas ZIP code data was obtained from [World Population Review](https://worldpopulationreview.com/zips/texas).

@@ -8,6 +8,7 @@ from data import load_data
 
 zip_codes = load_data('zip_codes')['TX']
 ip_addresses = load_data('ip_addresses')['TX']
+doctors = load_data('doctors')['TX']
 
 
 def anonymous_form() -> JSONType:
@@ -15,21 +16,25 @@ def anonymous_form() -> JSONType:
   anonymous_form.queue.task_done()
 
   fake = Faker(['en_US', 'es_MX'])
-  zip_code, location = random.choice(list(zip_codes.items()))
+  location = random.choice(list(zip_codes))
+
   if location['city'] in ip_addresses:
     ip_address = random.choice(ip_addresses[location['city']])
   else:
     ip_address = random.choice(random.choice(list(ip_addresses.values())))
   ip_address += str(random.randint(0, 255))
 
+  doctor = random.choice(doctors)
+  doctor = random.choice(f'Dr. {doctor}', f'Dr. {fake.first_name()} {doctor}', doctor, f'Dr. {fake.first_name()[0]}. {doctor}')
+
   return {
     'violation': text_sequence,
     'obtained_evidence_from': random.choice(model.info_location),
-    'clinic_or_doctor': 'Dr. ' + fake.name(),
+    'clinic_or_doctor': doctor,
     'city': location['city'],
     'state': random.choice(['tx', 'TX', 'Texas', 'TEXAS']),
-    'zip_code': zip_code,
-    'county': location['countyname'],
+    'zip_code': location['zip'],
+    'county': location['county'],
     'ip_address': ip_address,
     'elected_to_public_office': 'no',
   }
