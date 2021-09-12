@@ -30,7 +30,7 @@ If you're not sure how to set environment variables in your environment, check o
 - [Environment variable assignment - Unix](https://en.wikipedia.org/wiki/Environment_variable#Assignment:_Unix) (Wikipedia)
 - [Enviornment variable assignment - Windows](https://en.wikipedia.org/wiki/Environment_variable#Assignment:_DOS,_OS/2_and_Windows) (Wikipedia)
 
-### Docker
+### Usage with Docker
 
 First, build the docker image.
 
@@ -42,15 +42,68 @@ After that, start the inference engine.
 
 ```bash
 # Normal
-docker container run -p 5000:5000 --rm dev-abbot-model
+docker container run --rm dev-abbot-model
 
 # Specify environment variables
-docker container run -e MODEL_NAME='gpt2' -e API_BATCH_SIZE='5' -e ALLOWED_APIS='*' -p 5000:5000 --rm dev-abbot-model
+docker container run -e MODEL_NAME='gpt2' -e API_BATCH_SIZE='5' -e ALLOWED_APIS='*' --rm dev-abbot-model
 ```
 
 After the container starts up, you're ready to go.
 
-### Local with Python 3.9.6
+### Usage with Python 3
+
+#### Install Python
+
+If you don't already have Python installed, you can check out [the Python Beginner's Guide's instructions for installation](https://wiki.python.org/moin/BeginnersGuide/Download).
+
+After you have Python installed, make sure you have Pip installed by running the following command.
+
+```bash
+pip3 --version
+# or
+python3 -m pip --version
+# or
+python3 -m ensurepip --default-pip
+```
+
+If you don't have Pip installed, you can download [the `get-pip.py` script](https://bootstrap.pypa.io/get-pip.py) and run it with `python3`.
+
+```bash
+curl 'https://bootstrap.pypa.io/get-pip.py' -o ./get-pip.py
+python3 ./get-pip.py
+```
+
+#### Installing dependencies
+
+First we'll need to install Pipenv.
+
+```bash
+pip3 install --user pipenv
+```
+
+Then we can use `pipenv` to install all of the dependencies of this project.
+
+```bash
+pipenv install
+```
+
+#### Running the program
+
+Now that the dependencies are installed you can run the program (`main.py`) and set environment variables as you wish.
+
+```bash
+# Normal
+python3 ./main.py
+# or make it executable (Unix/Linux/macOS only)
+chmod +x ./main.py
+./main.py
+
+# Specify environment variables (Bourne shell and related shells)
+MODEL_NAME='gpt2' -e API_BATCH_SIZE='5' -e ALLOWED_APIS='*' python3 ./main.py
+# or set environment variables for whole session
+export MODEL_NAME='gpt2' -e API_BATCH_SIZE='5' -e ALLOWED_APIS='*'
+python3 ./main.py
+```
 
 ### Testing the API
 
@@ -121,3 +174,5 @@ Date: Sat, 11 Sep 2021 23:03:46 GMT
 ## Attribution
 
 - Texas ZIP code data was obtained from [World Population Review](https://worldpopulationreview.com/zips/texas).
+
+# Contributing
