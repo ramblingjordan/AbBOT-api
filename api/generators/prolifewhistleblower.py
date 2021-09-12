@@ -1,6 +1,6 @@
-from .. import model
-from loguru import logger
+from helpers import model
 from helpers.typing import APIMapping, JSONType
+
 from faker import Faker
 import random
 from helpers.typing import JSONType
@@ -25,11 +25,18 @@ def anonymous_form() -> JSONType:
   ip_address += str(random.randint(0, 255))
 
   doctor = random.choice(doctors)
-  doctor = random.choice(f'Dr. {doctor}', f'Dr. {fake.first_name()} {doctor}', doctor, f'Dr. {fake.first_name()[0]}. {doctor}')
+  doctor = random.choice([f'Dr. {doctor}', f'Dr. {fake.first_name()} {doctor}', doctor, f'Dr. {fake.first_name()[0]}. {doctor}'])
+
+  obtained_evidence_from = random.choice(
+    [
+      'A friend saw them', 'I work at the clinic', 'I know their secretary', 'They told me at the club', 'The police report',
+      'Their spouse told me'
+    ]
+  )
 
   return {
     'violation': text_sequence,
-    'obtained_evidence_from': random.choice(model.info_location),
+    'obtained_evidence_from': obtained_evidence_from,
     'clinic_or_doctor': doctor,
     'city': location['city'],
     'state': random.choice(['tx', 'TX', 'Texas', 'TEXAS']),

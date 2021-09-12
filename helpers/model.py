@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
 from os import environ, path
 
-from queue import Full, Queue
-from threading import Thread, Event
-from time import sleep
+from queue import Queue
+from threading import Thread
 from typing import Callable, NoReturn, Union
 
 import torch
 import numpy as np
-from faker import Faker
 from loguru import logger
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
@@ -20,10 +18,6 @@ except KeyError:
   raise ValueError("Environment variable MODEL_NAME must be either 'gpt2' or '4chan'")
 
 MAX_LENGTH = int(10000)  # Hardcoded max length to avoid infinite loop
-
-info_location = [
-  'A friend saw them', 'I work at the clinic', 'I know his secretary', 'He told me at the club', 'The police report', 'His wife told me'
-]
 
 
 def set_random_seed(seed, n_gpu):
