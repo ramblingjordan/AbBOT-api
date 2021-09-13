@@ -1,4 +1,12 @@
-from typing import Callable, List, Mapping, Tuple, Union
+from typing import Any, Callable, Mapping, TypedDict
 
-JSONType = Union[str, int, float, bool, None, Mapping[str, 'JSONType'], List['JSONType'], Tuple['JSONType', ...]]
+
+class ZIPCode(TypedDict):
+  zip: str
+  city: str
+  county: str
+  pop: int
+
+
+JSONType = Any
 APIMapping = Mapping[str, Callable[[], JSONType]]
