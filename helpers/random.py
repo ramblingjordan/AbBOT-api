@@ -1,5 +1,5 @@
 import random
-from typing import Any, List, Tuple, Union, TypeVar, cast
+from typing import Any, List, Tuple, Union, cast
 
 WeightedLists = List[List[Union[float, Any]]]
 WeightedTuples = List[Tuple[float, Any]]

@@ -2,14 +2,14 @@ from os import path, environ, _exit as exit
 from glob import glob
 from flask import Flask
 from flask_restful import Resource, Api, HTTPException
-from typing import Callable, NoReturn, Optional, Tuple, TypedDict
+from typing import Callable, List, Optional, Tuple, TypedDict
 from loguru import logger
 from werkzeug.wrappers.response import Response
 from helpers.typing import APIMapping, JSONType
 
 HOST: str = environ.get('API_HOST', '0.0.0.0')
 PORT: int = int(environ.get('API_PORT', 5000))
-ALLOWED_APIS = environ.get('ALLOWED_APIS', '*').split(',')
+ALLOWED_APIS: List[str] = environ.get('ALLOWED_APIS', '*').split(',')
 
 
 class UnexpectedAPIException(HTTPException):
@@ -40,11 +40,11 @@ def get_generator_api(name) -> GeneratorAPIInfo:
   return {'name': name, 'api': module.generators.__getattribute__(name).api}
 
 
-def start_server() -> NoReturn:
+def start_server() -> None:
   app: Flask = Flask(__name__)
   api: Api = Api(app)
 
-  @app.errorhandler(UnexpectedAPIException)
+  @app.errorhandler(UnexpectedAPIException)  # type: ignore
   def unexpected_api_exception(error: UnexpectedAPIException) -> Tuple[JSONType, int]:
     return ({'error': error.message}, error.code)
 
