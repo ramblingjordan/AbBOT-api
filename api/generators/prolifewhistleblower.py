@@ -191,19 +191,20 @@ doctors = load_data('doctors')['TX']
 
 
 def anonymous_form() -> JSONType:
-  text_sequence = add_typos(queues['/anonymous-form'].get())
+  text_sequence: str = queues['/anonymous-form'].get()
   queues['/anonymous-form'].task_done()
 
-  fake = Faker(['en_US', 'es_MX'])
-  location = random.choice(list(zip_codes))
+  fake: Faker = Faker(['en_US', 'es_MX'])
+  location: ZIPCode = random.choice(list(zip_codes))
 
+  ip_address: str
   if location['city'] in ip_addresses:
     ip_address = random.choice(ip_addresses[location['city']])
   else:
     ip_address = random.choice(random.choice(list(ip_addresses.values())))
   ip_address += str(random.randint(0, 255))
 
-  doctor = random.choice(doctors)
+  doctor: str = random.choice(doctors)
   doctor = random.choice([f'Dr. {doctor}', f'Dr. {fake.first_name()} {doctor}', doctor, f'Dr. {fake.first_name()[0]}. {doctor}'])
 
   obtained_evidence_from = random.choice(
@@ -213,6 +214,10 @@ def anonymous_form() -> JSONType:
     ]
   )
 
+  text_sequence = model.clean_text(
+    text_sequence, location['city'], ['tx', 'TX', 'Texas', 'TEXAS'], ['US', 'USA', 'United States', 'America']
+  )
+  text_sequence = add_typos(text_sequence)
   return {
     'violation': text_sequence,
     'obtained_evidence_from': obtained_evidence_from,
@@ -259,5 +264,5 @@ queues: Mapping[str, Queue] = {
 
 api: APIMapping = {
   '/anonymous-form': anonymous_form,
-  '/signup': signup,
+  # '/signup': signup,
 }

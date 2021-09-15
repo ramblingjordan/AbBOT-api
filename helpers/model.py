@@ -3,12 +3,16 @@ from os import environ, path
 
 from queue import Queue
 from threading import Thread
-from typing import Callable, NoReturn, Union
+from typing import Callable, List, NoReturn, Union, cast
 
 import torch
 import numpy as np
 from loguru import logger
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
+
+import random
+from nltk import sent_tokenize
+import locationtagger
 
 MODEL_NAME = environ.get('MODEL_NAME', 'gpt2')
 try:
@@ -112,3 +116,33 @@ def new_text_generator(name: str, prompt_text: Union[str, Callable[[], str]], **
   generate_thread: Thread = Thread(target=generate_to_queue)
   generate_thread.start()
   return queue
+
+
+TEXT_REPLACEMENTS = {
+  '\nAdvertisement\n': '',
+  '[pullquote]': '',
+  '\n': ' ',
+}
+
+
+def clean_text(text: str, city: Union[str, List[str]], state: Union[str, List[str]], country: Union[str, List[str]]) -> str:
+  for k, v in TEXT_REPLACEMENTS.items():
+    text = text.replace(k, v)
+
+  text = ' '.join(sent_tokenize(text)[:-1])  # Removes anything after the last sentence
+  text = text.encode('ascii', 'ignore').decode()  # Removes leftover unicode characters
+
+  def random_choice_or_str(values: Union[str, List[str]]) -> str:
+    if type(values) == list:
+      return random.choice(values)
+    else:
+      return cast(str, values)
+
+  # Replace references to locations to match the correct city/state/country.
+  place = locationtagger.find_locations(text=text)
+  for replacements, found in ((city, place.cities), (state, place.regions), (country, place.countries)):
+    for item in found:
+      if not (item in replacements or item == replacements):
+        logger.debug(f'Replacing {item} with {replacements} because item != replacement')
+        text = text.replace(item, random_choice_or_str(replacements))
+  return text
