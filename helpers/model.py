@@ -122,6 +122,7 @@ TEXT_REPLACEMENTS = {
   '\nAdvertisement\n': '',
   '[pullquote]': '',
   '\n': ' ',
+  '"': '',
 }
 
 
