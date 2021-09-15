@@ -130,7 +130,7 @@ def clean_text(text: str, city: Union[str, List[str]], state: Union[str, List[st
   for k, v in TEXT_REPLACEMENTS.items():
     text = text.replace(k, v)
 
-  text = ' '.join(sent_tokenize(text)[:-1])  # Removes anything after the last sentence
+  text = ' '.join(sent_tokenize(text)[:-1])  # TODO: Not sure why this is here, it just removes the last sentence.
   text = text.encode('ascii', 'ignore').decode()  # Removes leftover unicode characters
 
   def random_choice_or_str(values: Union[str, List[str]]) -> str:
