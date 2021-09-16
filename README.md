@@ -89,7 +89,13 @@ pipenv install
 
 #### Running the program
 
-Now that the dependencies are installed you can run the program (`main.py`) and set environment variables as you wish.
+Before we can run the program, there's one script we need to run to download some runtime dependencies.
+
+```bash
+python3 ./download_weights.py
+```
+
+Now that all dependencies are installed and downloaded you can run the program (`main.py`) and set environment variables as you wish.
 
 ```bash
 # Normal
