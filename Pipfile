@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+faker = "*"
+flask = "*"
+flask-restful = "*"
+loguru = "*"
+requests = "*"
+numpy = "*"
+torch = "*"
+tqdm = "*"
+transformers = "*"
+locationtagger = "*"
+nltk = "*"
+types-requests = "*"
+mypy = "*"
+
+[dev-packages]
+yapf = "*"
+
+[requires]
+python_version = "3.9"
