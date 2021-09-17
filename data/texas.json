@@ -1,0 +1,3933 @@
+{
+	"state": ["TX", "Texas"],
+	"cities": {
+		"Abilene": {
+			"ip_addresses": ["66.136.125."],
+			"zip_codes": [
+				{
+					"zip": "79601",
+					"countyname": "Taylor",
+					"pop": 27507
+				},
+				{
+					"zip": "79602",
+					"countyname": "Taylor",
+					"pop": 24876
+				},
+				{
+					"zip": "79603",
+					"countyname": "Taylor",
+					"pop": 23454
+				},
+				{
+					"zip": "79605",
+					"countyname": "Taylor",
+					"pop": 29732
+				},
+				{
+					"zip": "79606",
+					"countyname": "Taylor",
+					"pop": 25053
+				},
+				{
+					"zip": "79699",
+					"countyname": "Taylor",
+					"pop": 115
+				}
+			]
+		},
+		"Addison": {
+			"ip_addresses": ["64.46.160.", "65.254.4."],
+			"zip_codes": [
+				{
+					"zip": "75001",
+					"countyname": "Dallas",
+					"pop": 14992
+				}
+			]
+		},
+		"Allen": {
+			"ip_addresses": ["24.27.72."],
+			"zip_codes": [
+				{
+					"zip": "75002",
+					"countyname": "Collin",
+					"pop": 71253
+				},
+				{
+					"zip": "75013",
+					"countyname": "Collin",
+					"pop": 42629
+				}
+			]
+		},
+		"Alpine": {
+			"ip_addresses": ["65.65.132."],
+			"zip_codes": [
+				{
+					"zip": "79830",
+					"countyname": "Brewster",
+					"pop": 7860
+				},
+				{
+					"zip": "79831",
+					"countyname": "Brewster",
+					"pop": 4
+				}
+			]
+		},
+		"Alvarado": {
+			"ip_addresses": ["64.243.53."],
+			"zip_codes": [
+				{
+					"zip": "76009",
+					"countyname": "Johnson",
+					"pop": 20417
+				}
+			]
+		},
+		"Alvin": {
+			"ip_addresses": ["50.175.228.", "50.175.229."],
+			"zip_codes": [
+				{
+					"zip": "77511",
+					"countyname": "Brazoria",
+					"pop": 47556
+				}
+			]
+		},
+		"Amarillo": {
+			"ip_addresses": ["50.26.131."],
+			"zip_codes": [
+				{
+					"zip": "79101",
+					"countyname": "Potter",
+					"pop": 1851
+				},
+				{
+					"zip": "79102",
+					"countyname": "Potter",
+					"pop": 9878
+				},
+				{
+					"zip": "79103",
+					"countyname": "Potter",
+					"pop": 10869
+				},
+				{
+					"zip": "79104",
+					"countyname": "Potter",
+					"pop": 7019
+				},
+				{
+					"zip": "79105",
+					"countyname": "Moore",
+					"pop": 0
+				},
+				{
+					"zip": "79106",
+					"countyname": "Potter",
+					"pop": 27268
+				},
+				{
+					"zip": "79107",
+					"countyname": "Potter",
+					"pop": 34935
+				},
+				{
+					"zip": "79108",
+					"countyname": "Potter",
+					"pop": 16112
+				},
+				{
+					"zip": "79109",
+					"countyname": "Randall",
+					"pop": 44600
+				},
+				{
+					"zip": "79110",
+					"countyname": "Randall",
+					"pop": 19158
+				},
+				{
+					"zip": "79111",
+					"countyname": "Potter",
+					"pop": 2108
+				},
+				{
+					"zip": "79118",
+					"countyname": "Randall",
+					"pop": 23381
+				},
+				{
+					"zip": "79119",
+					"countyname": "Randall",
+					"pop": 17524
+				},
+				{
+					"zip": "79121",
+					"countyname": "Randall",
+					"pop": 6002
+				},
+				{
+					"zip": "79124",
+					"countyname": "Potter",
+					"pop": 8800
+				}
+			]
+		},
+		"Angleton": {
+			"ip_addresses": ["12.163.172."],
+			"zip_codes": [
+				{
+					"zip": "77515",
+					"countyname": "Brazoria",
+					"pop": 32469
+				}
+			]
+		},
+		"Arlington": {
+			"ip_addresses": ["23.117.126.", "68.93.254."],
+			"zip_codes": [
+				{
+					"zip": "76001",
+					"countyname": "Tarrant",
+					"pop": 33748
+				},
+				{
+					"zip": "76002",
+					"countyname": "Tarrant",
+					"pop": 36460
+				},
+				{
+					"zip": "76006",
+					"countyname": "Tarrant",
+					"pop": 24684
+				},
+				{
+					"zip": "76010",
+					"countyname": "Tarrant",
+					"pop": 60097
+				},
+				{
+					"zip": "76011",
+					"countyname": "Tarrant",
+					"pop": 22622
+				},
+				{
+					"zip": "76012",
+					"countyname": "Tarrant",
+					"pop": 25719
+				},
+				{
+					"zip": "76013",
+					"countyname": "Tarrant",
+					"pop": 34203
+				},
+				{
+					"zip": "76014",
+					"countyname": "Tarrant",
+					"pop": 35096
+				},
+				{
+					"zip": "76015",
+					"countyname": "Tarrant",
+					"pop": 16961
+				},
+				{
+					"zip": "76016",
+					"countyname": "Tarrant",
+					"pop": 32026
+				},
+				{
+					"zip": "76017",
+					"countyname": "Tarrant",
+					"pop": 47499
+				},
+				{
+					"zip": "76018",
+					"countyname": "Tarrant",
+					"pop": 31200
+				}
+			]
+		},
+		"Austin": {
+			"ip_addresses": [
+				"8.34.145.",
+				"12.204.50.",
+				"24.153.156.",
+				"24.155.228.",
+				"50.94.23.",
+				"66.193.112.",
+				"66.193.113."
+			],
+			"zip_codes": [
+				{
+					"zip": "78701",
+					"countyname": "Travis",
+					"pop": 10848
+				},
+				{
+					"zip": "78702",
+					"countyname": "Travis",
+					"pop": 23671
+				},
+				{
+					"zip": "78703",
+					"countyname": "Travis",
+					"pop": 20407
+				},
+				{
+					"zip": "78704",
+					"countyname": "Travis",
+					"pop": 48746
+				},
+				{
+					"zip": "78705",
+					"countyname": "Travis",
+					"pop": 34549
+				},
+				{
+					"zip": "78712",
+					"countyname": "Travis",
+					"pop": 880
+				},
+				{
+					"zip": "78717",
+					"countyname": "Williamson",
+					"pop": 30657
+				},
+				{
+					"zip": "78719",
+					"countyname": "Travis",
+					"pop": 1709
+				},
+				{
+					"zip": "78721",
+					"countyname": "Travis",
+					"pop": 12110
+				},
+				{
+					"zip": "78722",
+					"countyname": "Travis",
+					"pop": 7180
+				},
+				{
+					"zip": "78723",
+					"countyname": "Travis",
+					"pop": 35725
+				},
+				{
+					"zip": "78724",
+					"countyname": "Travis",
+					"pop": 25723
+				},
+				{
+					"zip": "78725",
+					"countyname": "Travis",
+					"pop": 8469
+				},
+				{
+					"zip": "78726",
+					"countyname": "Travis",
+					"pop": 14040
+				},
+				{
+					"zip": "78727",
+					"countyname": "Travis",
+					"pop": 30561
+				},
+				{
+					"zip": "78728",
+					"countyname": "Travis",
+					"pop": 21125
+				},
+				{
+					"zip": "78729",
+					"countyname": "Williamson",
+					"pop": 28644
+				},
+				{
+					"zip": "78730",
+					"countyname": "Travis",
+					"pop": 9803
+				},
+				{
+					"zip": "78731",
+					"countyname": "Travis",
+					"pop": 27298
+				},
+				{
+					"zip": "78732",
+					"countyname": "Travis",
+					"pop": 17780
+				},
+				{
+					"zip": "78733",
+					"countyname": "Travis",
+					"pop": 8927
+				},
+				{
+					"zip": "78734",
+					"countyname": "Travis",
+					"pop": 19452
+				},
+				{
+					"zip": "78735",
+					"countyname": "Travis",
+					"pop": 18122
+				},
+				{
+					"zip": "78736",
+					"countyname": "Travis",
+					"pop": 10163
+				},
+				{
+					"zip": "78737",
+					"countyname": "Hays",
+					"pop": 17173
+				},
+				{
+					"zip": "78738",
+					"countyname": "Travis",
+					"pop": 15986
+				},
+				{
+					"zip": "78739",
+					"countyname": "Travis",
+					"pop": 21040
+				},
+				{
+					"zip": "78741",
+					"countyname": "Travis",
+					"pop": 52114
+				},
+				{
+					"zip": "78742",
+					"countyname": "Travis",
+					"pop": 887
+				},
+				{
+					"zip": "78744",
+					"countyname": "Travis",
+					"pop": 50123
+				},
+				{
+					"zip": "78745",
+					"countyname": "Travis",
+					"pop": 61907
+				},
+				{
+					"zip": "78746",
+					"countyname": "Travis",
+					"pop": 28608
+				},
+				{
+					"zip": "78747",
+					"countyname": "Travis",
+					"pop": 21021
+				},
+				{
+					"zip": "78748",
+					"countyname": "Travis",
+					"pop": 51653
+				},
+				{
+					"zip": "78749",
+					"countyname": "Travis",
+					"pop": 38041
+				},
+				{
+					"zip": "78750",
+					"countyname": "Travis",
+					"pop": 31734
+				},
+				{
+					"zip": "78751",
+					"countyname": "Travis",
+					"pop": 16197
+				},
+				{
+					"zip": "78752",
+					"countyname": "Travis",
+					"pop": 20881
+				},
+				{
+					"zip": "78753",
+					"countyname": "Travis",
+					"pop": 60426
+				},
+				{
+					"zip": "78754",
+					"countyname": "Travis",
+					"pop": 26433
+				},
+				{
+					"zip": "78756",
+					"countyname": "Travis",
+					"pop": 8694
+				},
+				{
+					"zip": "78757",
+					"countyname": "Travis",
+					"pop": 25706
+				},
+				{
+					"zip": "78758",
+					"countyname": "Travis",
+					"pop": 48993
+				},
+				{
+					"zip": "78759",
+					"countyname": "Travis",
+					"pop": 43298
+				}
+			]
+		},
+		"Beaumont": {
+			"ip_addresses": ["24.173.59.", "63.174.138."],
+			"zip_codes": [
+				{
+					"zip": "77701",
+					"countyname": "Jefferson",
+					"pop": 13480
+				},
+				{
+					"zip": "77702",
+					"countyname": "Jefferson",
+					"pop": 3225
+				},
+				{
+					"zip": "77703",
+					"countyname": "Jefferson",
+					"pop": 13823
+				},
+				{
+					"zip": "77705",
+					"countyname": "Jefferson",
+					"pop": 39236
+				},
+				{
+					"zip": "77706",
+					"countyname": "Jefferson",
+					"pop": 29474
+				},
+				{
+					"zip": "77707",
+					"countyname": "Jefferson",
+					"pop": 18335
+				},
+				{
+					"zip": "77708",
+					"countyname": "Jefferson",
+					"pop": 12536
+				},
+				{
+					"zip": "77713",
+					"countyname": "Jefferson",
+					"pop": 14238
+				}
+			]
+		},
+		"Bedford": {
+			"ip_addresses": ["66.135.178.", "66.169.186."],
+			"zip_codes": [
+				{
+					"zip": "76021",
+					"countyname": "Tarrant",
+					"pop": 35794
+				},
+				{
+					"zip": "76022",
+					"countyname": "Tarrant",
+					"pop": 13495
+				}
+			]
+		},
+		"Bellaire": {
+			"ip_addresses": ["38.88.154.", "38.110.200."],
+			"zip_codes": [
+				{
+					"zip": "77401",
+					"countyname": "Harris",
+					"pop": 19372
+				}
+			]
+		},
+		"Fort Worth": {
+			"ip_addresses": [
+				"24.219.225.",
+				"12.90.92.",
+				"12.184.253.",
+				"12.184.254.",
+				"12.203.146.",
+				"12.203.147.",
+				"12.210.27.",
+				"12.232.221.",
+				"24.182.108.",
+				"24.219.224.",
+				"24.219.163.",
+				"47.32.223.",
+				"50.11.19.",
+				"50.58.27.",
+				"63.163.54.",
+				"68.94.54.",
+				"68.113.154."
+			],
+			"zip_codes": [
+				{
+					"zip": "76102",
+					"countyname": "Tarrant",
+					"pop": 9282
+				},
+				{
+					"zip": "76103",
+					"countyname": "Tarrant",
+					"pop": 15486
+				},
+				{
+					"zip": "76104",
+					"countyname": "Tarrant",
+					"pop": 18344
+				},
+				{
+					"zip": "76105",
+					"countyname": "Tarrant",
+					"pop": 22179
+				},
+				{
+					"zip": "76106",
+					"countyname": "Tarrant",
+					"pop": 39900
+				},
+				{
+					"zip": "76107",
+					"countyname": "Tarrant",
+					"pop": 30168
+				},
+				{
+					"zip": "76108",
+					"countyname": "Tarrant",
+					"pop": 43169
+				},
+				{
+					"zip": "76109",
+					"countyname": "Tarrant",
+					"pop": 23220
+				},
+				{
+					"zip": "76110",
+					"countyname": "Tarrant",
+					"pop": 31926
+				},
+				{
+					"zip": "76111",
+					"countyname": "Tarrant",
+					"pop": 22531
+				},
+				{
+					"zip": "76112",
+					"countyname": "Tarrant",
+					"pop": 42572
+				},
+				{
+					"zip": "76114",
+					"countyname": "Tarrant",
+					"pop": 26563
+				},
+				{
+					"zip": "76115",
+					"countyname": "Tarrant",
+					"pop": 21319
+				},
+				{
+					"zip": "76116",
+					"countyname": "Tarrant",
+					"pop": 50506
+				},
+				{
+					"zip": "76118",
+					"countyname": "Tarrant",
+					"pop": 16378
+				},
+				{
+					"zip": "76119",
+					"countyname": "Tarrant",
+					"pop": 52070
+				},
+				{
+					"zip": "76120",
+					"countyname": "Tarrant",
+					"pop": 18125
+				},
+				{
+					"zip": "76123",
+					"countyname": "Tarrant",
+					"pop": 36245
+				},
+				{
+					"zip": "76126",
+					"countyname": "Tarrant",
+					"pop": 23450
+				},
+				{
+					"zip": "76129",
+					"countyname": "Tarrant",
+					"pop": 2519
+				},
+				{
+					"zip": "76131",
+					"countyname": "Tarrant",
+					"pop": 43542
+				},
+				{
+					"zip": "76132",
+					"countyname": "Tarrant",
+					"pop": 27243
+				},
+				{
+					"zip": "76133",
+					"countyname": "Tarrant",
+					"pop": 51505
+				},
+				{
+					"zip": "76134",
+					"countyname": "Tarrant",
+					"pop": 26151
+				},
+				{
+					"zip": "76135",
+					"countyname": "Tarrant",
+					"pop": 21973
+				},
+				{
+					"zip": "76137",
+					"countyname": "Tarrant",
+					"pop": 60385
+				},
+				{
+					"zip": "76140",
+					"countyname": "Tarrant",
+					"pop": 30723
+				},
+				{
+					"zip": "76148",
+					"countyname": "Tarrant",
+					"pop": 23993
+				},
+				{
+					"zip": "76155",
+					"countyname": "Tarrant",
+					"pop": 5813
+				},
+				{
+					"zip": "76164",
+					"countyname": "Tarrant",
+					"pop": 15488
+				},
+				{
+					"zip": "76177",
+					"countyname": "Tarrant",
+					"pop": 11695
+				},
+				{
+					"zip": "76179",
+					"countyname": "Tarrant",
+					"pop": 65496
+				}
+			]
+		},
+		"Brownwood": {
+			"ip_addresses": ["64.40.218."],
+			"zip_codes": [
+				{
+					"zip": "76801",
+					"countyname": "Brown",
+					"pop": 25011
+				}
+			]
+		},
+		"Carrollton": {
+			"ip_addresses": ["64.202.78."],
+			"zip_codes": [
+				{
+					"zip": "75006",
+					"countyname": "Dallas",
+					"pop": 51642
+				},
+				{
+					"zip": "75007",
+					"countyname": "Denton",
+					"pop": 55500
+				},
+				{
+					"zip": "75010",
+					"countyname": "Denton",
+					"pop": 30406
+				}
+			]
+		},
+		"Cedar Park": {
+			"ip_addresses": ["66.193.242."],
+			"zip_codes": [
+				{
+					"zip": "78613",
+					"countyname": "Williamson",
+					"pop": 81943
+				}
+			]
+		},
+		"Clarksville": {
+			"ip_addresses": ["24.32.117."],
+			"zip_codes": [
+				{
+					"zip": "75426",
+					"countyname": "Red River",
+					"pop": 4393
+				}
+			]
+		},
+		"College Station": {
+			"ip_addresses": ["4.12.222.", "50.24.101."],
+			"zip_codes": [
+				{
+					"zip": "77840",
+					"countyname": "Brazos",
+					"pop": 59371
+				},
+				{
+					"zip": "77845",
+					"countyname": "Brazos",
+					"pop": 66649
+				}
+			]
+		},
+		"Conroe": {
+			"ip_addresses": [
+				"50.15.108.",
+				"50.21.240.",
+				"50.162.52.",
+				"64.158.39.",
+				"66.136.21.",
+				"66.170.212."
+			],
+			"zip_codes": [
+				{
+					"zip": "77301",
+					"countyname": "Montgomery",
+					"pop": 34169
+				},
+				{
+					"zip": "77302",
+					"countyname": "Montgomery",
+					"pop": 18658
+				},
+				{
+					"zip": "77303",
+					"countyname": "Montgomery",
+					"pop": 20655
+				},
+				{
+					"zip": "77304",
+					"countyname": "Montgomery",
+					"pop": 33364
+				},
+				{
+					"zip": "77306",
+					"countyname": "Montgomery",
+					"pop": 13569
+				},
+				{
+					"zip": "77384",
+					"countyname": "Montgomery",
+					"pop": 19467
+				},
+				{
+					"zip": "77385",
+					"countyname": "Montgomery",
+					"pop": 25160
+				}
+			]
+		},
+		"Copperas Cove": {
+			"ip_addresses": ["64.194.96."],
+			"zip_codes": [
+				{
+					"zip": "76522",
+					"countyname": "Coryell",
+					"pop": 36560
+				}
+			]
+		},
+		"Coppell": {
+			"ip_addresses": ["67.67.45."],
+			"zip_codes": [
+				{
+					"zip": "75019",
+					"countyname": "Dallas",
+					"pop": 42888
+				}
+			]
+		},
+		"Corpus Christi": {
+			"ip_addresses": ["38.30.130.", "67.63.164."],
+			"zip_codes": [
+				{
+					"zip": "78401",
+					"countyname": "Nueces",
+					"pop": 5265
+				},
+				{
+					"zip": "78402",
+					"countyname": "Nueces",
+					"pop": 236
+				},
+				{
+					"zip": "78404",
+					"countyname": "Nueces",
+					"pop": 17761
+				},
+				{
+					"zip": "78405",
+					"countyname": "Nueces",
+					"pop": 15059
+				},
+				{
+					"zip": "78406",
+					"countyname": "Nueces",
+					"pop": 2027
+				},
+				{
+					"zip": "78407",
+					"countyname": "Nueces",
+					"pop": 2704
+				},
+				{
+					"zip": "78408",
+					"countyname": "Nueces",
+					"pop": 11583
+				},
+				{
+					"zip": "78409",
+					"countyname": "Nueces",
+					"pop": 2725
+				},
+				{
+					"zip": "78410",
+					"countyname": "Nueces",
+					"pop": 28396
+				},
+				{
+					"zip": "78411",
+					"countyname": "Nueces",
+					"pop": 25987
+				},
+				{
+					"zip": "78412",
+					"countyname": "Nueces",
+					"pop": 41977
+				},
+				{
+					"zip": "78413",
+					"countyname": "Nueces",
+					"pop": 40644
+				},
+				{
+					"zip": "78414",
+					"countyname": "Nueces",
+					"pop": 40657
+				},
+				{
+					"zip": "78415",
+					"countyname": "Nueces",
+					"pop": 40377
+				},
+				{
+					"zip": "78416",
+					"countyname": "Nueces",
+					"pop": 15973
+				},
+				{
+					"zip": "78417",
+					"countyname": "Nueces",
+					"pop": 4095
+				},
+				{
+					"zip": "78418",
+					"countyname": "Nueces",
+					"pop": 30312
+				},
+				{
+					"zip": "78419",
+					"countyname": "Nueces",
+					"pop": 778
+				}
+			]
+		},
+		"Dallas": {
+			"ip_addresses": [
+				"4.26.150.",
+				"4.68.19.",
+				"4.71.196.",
+				"12.13.48.",
+				"12.21.88.",
+				"12.41.199.",
+				"12.53.23.",
+				"12.56.225.",
+				"12.96.170.",
+				"12.132.16.",
+				"12.134.216.",
+				"12.135.64.",
+				"12.148.133.",
+				"12.167.120.",
+				"12.182.130.",
+				"12.201.56.",
+				"12.209.171.",
+				"12.209.212.",
+				"12.210.242.",
+				"12.214.237.",
+				"12.233.59.",
+				"15.249.0.",
+				"17.253.118.",
+				"67.216.80.",
+				"67.216.81.",
+				"67.216.82.",
+				"67.216.83.",
+				"67.216.84.",
+				"67.216.85.",
+				"67.216.86.",
+				"67.216.87.",
+				"67.216.88.",
+				"67.216.89.",
+				"67.216.90.",
+				"67.216.91.",
+				"67.216.92.",
+				"67.216.93.",
+				"67.216.94.",
+				"67.216.95.",
+				"23.19.108.",
+				"23.50.48.",
+				"23.119.13.",
+				"23.119.14.",
+				"23.119.15.",
+				"64.197.59.",
+				"24.242.248.",
+				"23.33.244.",
+				"23.33.245.",
+				"23.33.246.",
+				"23.33.247.",
+				"23.95.39.",
+				"23.216.55.",
+				"23.218.192.",
+				"24.153.219.",
+				"24.162.85.",
+				"24.175.0.",
+				"24.219.28.",
+				"24.219.165.",
+				"24.227.251.",
+				"32.144.6.",
+				"32.144.7.",
+				"32.144.40.",
+				"32.145.187.",
+				"32.149.78.",
+				"32.149.122.",
+				"32.149.194.",
+				"32.149.195.",
+				"32.149.196.",
+				"32.149.197.",
+				"32.153.78.",
+				"32.153.79.",
+				"32.153.80.",
+				"32.153.81.",
+				"32.153.82.",
+				"32.153.83.",
+				"32.153.84.",
+				"32.153.85.",
+				"32.153.86.",
+				"32.153.87.",
+				"32.153.88.",
+				"32.153.89.",
+				"32.153.90.",
+				"32.153.91.",
+				"32.153.92.",
+				"32.153.93.",
+				"32.153.94.",
+				"32.153.95.",
+				"32.153.96.",
+				"32.153.97.",
+				"32.153.98.",
+				"32.155.162.",
+				"32.156.36.",
+				"32.156.168.",
+				"32.159.17.",
+				"63.133.167.",
+				"66.155.134.",
+				"66.155.135.",
+				"68.109.248.",
+				"64.56.170.",
+				"32.153.104.",
+				"32.168.139.",
+				"68.90.101.",
+				"38.107.254.",
+				"40.139.103.",
+				"50.58.239.",
+				"50.84.221.",
+				"54.182.134.",
+				"54.192.4.",
+				"63.25.84.",
+				"63.97.48.",
+				"63.97.88.",
+				"63.133.145.",
+				"63.158.21.",
+				"63.234.233.",
+				"63.253.117.",
+				"64.68.223.",
+				"64.125.5.",
+				"64.130.250.",
+				"64.145.92.",
+				"64.152.237.",
+				"64.195.173.",
+				"64.201.132.",
+				"64.205.163.",
+				"64.245.210.",
+				"65.44.75.",
+				"65.69.15.",
+				"65.71.67.",
+				"65.99.215.",
+				"66.106.98.",
+				"65.118.54.",
+				"65.152.83.",
+				"65.227.224.",
+				"66.226.240.",
+				"66.253.55.",
+				"67.48.192.",
+				"67.79.58.",
+				"67.110.83.",
+				"67.192.56.",
+				"68.95.146.",
+				"68.107.253."
+			],
+			"zip_codes": [
+				{
+					"zip": "75201",
+					"countyname": "Dallas",
+					"pop": 17476
+				},
+				{
+					"zip": "75202",
+					"countyname": "Dallas",
+					"pop": 2312
+				},
+				{
+					"zip": "75203",
+					"countyname": "Dallas",
+					"pop": 17367
+				},
+				{
+					"zip": "75204",
+					"countyname": "Dallas",
+					"pop": 30537
+				},
+				{
+					"zip": "75205",
+					"countyname": "Dallas",
+					"pop": 24877
+				},
+				{
+					"zip": "75206",
+					"countyname": "Dallas",
+					"pop": 39010
+				},
+				{
+					"zip": "75207",
+					"countyname": "Dallas",
+					"pop": 7702
+				},
+				{
+					"zip": "75208",
+					"countyname": "Dallas",
+					"pop": 29706
+				},
+				{
+					"zip": "75209",
+					"countyname": "Dallas",
+					"pop": 14308
+				},
+				{
+					"zip": "75210",
+					"countyname": "Dallas",
+					"pop": 8673
+				},
+				{
+					"zip": "75211",
+					"countyname": "Dallas",
+					"pop": 77570
+				},
+				{
+					"zip": "75212",
+					"countyname": "Dallas",
+					"pop": 26720
+				},
+				{
+					"zip": "75214",
+					"countyname": "Dallas",
+					"pop": 34824
+				},
+				{
+					"zip": "75215",
+					"countyname": "Dallas",
+					"pop": 17818
+				},
+				{
+					"zip": "75216",
+					"countyname": "Dallas",
+					"pop": 53327
+				},
+				{
+					"zip": "75217",
+					"countyname": "Dallas",
+					"pop": 89163
+				},
+				{
+					"zip": "75218",
+					"countyname": "Dallas",
+					"pop": 22529
+				},
+				{
+					"zip": "75219",
+					"countyname": "Dallas",
+					"pop": 25120
+				},
+				{
+					"zip": "75220",
+					"countyname": "Dallas",
+					"pop": 42009
+				},
+				{
+					"zip": "75223",
+					"countyname": "Dallas",
+					"pop": 14941
+				},
+				{
+					"zip": "75224",
+					"countyname": "Dallas",
+					"pop": 37592
+				},
+				{
+					"zip": "75225",
+					"countyname": "Dallas",
+					"pop": 21736
+				},
+				{
+					"zip": "75226",
+					"countyname": "Dallas",
+					"pop": 4579
+				},
+				{
+					"zip": "75227",
+					"countyname": "Dallas",
+					"pop": 59924
+				},
+				{
+					"zip": "75228",
+					"countyname": "Dallas",
+					"pop": 73976
+				},
+				{
+					"zip": "75229",
+					"countyname": "Dallas",
+					"pop": 32322
+				},
+				{
+					"zip": "75230",
+					"countyname": "Dallas",
+					"pop": 27489
+				},
+				{
+					"zip": "75231",
+					"countyname": "Dallas",
+					"pop": 40371
+				},
+				{
+					"zip": "75232",
+					"countyname": "Dallas",
+					"pop": 31453
+				},
+				{
+					"zip": "75233",
+					"countyname": "Dallas",
+					"pop": 17280
+				},
+				{
+					"zip": "75234",
+					"countyname": "Dallas",
+					"pop": 37160
+				},
+				{
+					"zip": "75235",
+					"countyname": "Dallas",
+					"pop": 18429
+				},
+				{
+					"zip": "75236",
+					"countyname": "Dallas",
+					"pop": 18137
+				},
+				{
+					"zip": "75237",
+					"countyname": "Dallas",
+					"pop": 21423
+				},
+				{
+					"zip": "75238",
+					"countyname": "Dallas",
+					"pop": 33049
+				},
+				{
+					"zip": "75240",
+					"countyname": "Dallas",
+					"pop": 28534
+				},
+				{
+					"zip": "75241",
+					"countyname": "Dallas",
+					"pop": 31562
+				},
+				{
+					"zip": "75243",
+					"countyname": "Dallas",
+					"pop": 68308
+				},
+				{
+					"zip": "75244",
+					"countyname": "Dallas",
+					"pop": 13254
+				},
+				{
+					"zip": "75246",
+					"countyname": "Dallas",
+					"pop": 2760
+				},
+				{
+					"zip": "75247",
+					"countyname": "Dallas",
+					"pop": 792
+				},
+				{
+					"zip": "75248",
+					"countyname": "Dallas",
+					"pop": 37373
+				},
+				{
+					"zip": "75249",
+					"countyname": "Dallas",
+					"pop": 17649
+				},
+				{
+					"zip": "75251",
+					"countyname": "Dallas",
+					"pop": 2861
+				},
+				{
+					"zip": "75252",
+					"countyname": "Collin",
+					"pop": 26867
+				},
+				{
+					"zip": "75253",
+					"countyname": "Dallas",
+					"pop": 23900
+				},
+				{
+					"zip": "75254",
+					"countyname": "Dallas",
+					"pop": 26929
+				},
+				{
+					"zip": "75270",
+					"countyname": "Dallas",
+					"pop": 0
+				},
+				{
+					"zip": "75287",
+					"countyname": "Denton",
+					"pop": 55673
+				},
+				{
+					"zip": "75390",
+					"countyname": "Dallas",
+					"pop": 0
+				}
+			]
+		},
+		"Denton": {
+			"ip_addresses": [
+				"24.206.145.",
+				"24.219.171.",
+				"47.184.118.",
+				"47.184.119.",
+				"47.184.120.",
+				"47.184.121.",
+				"68.116.255."
+			],
+			"zip_codes": [
+				{
+					"zip": "76201",
+					"countyname": "Denton",
+					"pop": 28601
+				},
+				{
+					"zip": "76205",
+					"countyname": "Denton",
+					"pop": 21326
+				},
+				{
+					"zip": "76207",
+					"countyname": "Denton",
+					"pop": 14588
+				},
+				{
+					"zip": "76208",
+					"countyname": "Denton",
+					"pop": 24621
+				},
+				{
+					"zip": "76209",
+					"countyname": "Denton",
+					"pop": 25689
+				},
+				{
+					"zip": "76210",
+					"countyname": "Denton",
+					"pop": 45474
+				}
+			]
+		},
+		"DeSoto": {
+			"ip_addresses": ["67.61.107."],
+			"zip_codes": [
+				{
+					"zip": "75115",
+					"countyname": "Dallas",
+					"pop": 52916
+				}
+			]
+		},
+		"Edinburg": {
+			"ip_addresses": ["50.30.93.", "67.10.46.", "67.10.91."],
+			"zip_codes": [
+				{
+					"zip": "78539",
+					"countyname": "Hidalgo",
+					"pop": 37380
+				},
+				{
+					"zip": "78541",
+					"countyname": "Hidalgo",
+					"pop": 44860
+				},
+				{
+					"zip": "78542",
+					"countyname": "Hidalgo",
+					"pop": 77336
+				}
+			]
+		},
+		"El Paso": {
+			"ip_addresses": ["24.242.98."],
+			"zip_codes": [
+				{
+					"zip": "79901",
+					"countyname": "El Paso",
+					"pop": 9590
+				},
+				{
+					"zip": "79902",
+					"countyname": "El Paso",
+					"pop": 20496
+				},
+				{
+					"zip": "79903",
+					"countyname": "El Paso",
+					"pop": 15995
+				},
+				{
+					"zip": "79904",
+					"countyname": "El Paso",
+					"pop": 33428
+				},
+				{
+					"zip": "79905",
+					"countyname": "El Paso",
+					"pop": 21599
+				},
+				{
+					"zip": "79906",
+					"countyname": "El Paso",
+					"pop": 5295
+				},
+				{
+					"zip": "79907",
+					"countyname": "El Paso",
+					"pop": 53174
+				},
+				{
+					"zip": "79908",
+					"countyname": "El Paso",
+					"pop": 6422
+				},
+				{
+					"zip": "79911",
+					"countyname": "El Paso",
+					"pop": 5794
+				},
+				{
+					"zip": "79912",
+					"countyname": "El Paso",
+					"pop": 78267
+				},
+				{
+					"zip": "79915",
+					"countyname": "El Paso",
+					"pop": 36412
+				},
+				{
+					"zip": "79920",
+					"countyname": "El Paso",
+					"pop": 8
+				},
+				{
+					"zip": "79922",
+					"countyname": "El Paso",
+					"pop": 7932
+				},
+				{
+					"zip": "79924",
+					"countyname": "El Paso",
+					"pop": 59648
+				},
+				{
+					"zip": "79925",
+					"countyname": "El Paso",
+					"pop": 39616
+				},
+				{
+					"zip": "79927",
+					"countyname": "El Paso",
+					"pop": 40747
+				},
+				{
+					"zip": "79928",
+					"countyname": "El Paso",
+					"pop": 57219
+				},
+				{
+					"zip": "79930",
+					"countyname": "El Paso",
+					"pop": 28277
+				},
+				{
+					"zip": "79932",
+					"countyname": "El Paso",
+					"pop": 28243
+				},
+				{
+					"zip": "79934",
+					"countyname": "El Paso",
+					"pop": 26445
+				},
+				{
+					"zip": "79935",
+					"countyname": "El Paso",
+					"pop": 17850
+				},
+				{
+					"zip": "79936",
+					"countyname": "El Paso",
+					"pop": 111620
+				},
+				{
+					"zip": "79938",
+					"countyname": "El Paso",
+					"pop": 84237
+				},
+				{
+					"zip": "79942",
+					"countyname": "Crockett",
+					"pop": 30
+				}
+			]
+		},
+		"Euless": {
+			"ip_addresses": ["65.117.156."],
+			"zip_codes": [
+				{
+					"zip": "76039",
+					"countyname": "Tarrant",
+					"pop": 36087
+				},
+				{
+					"zip": "76040",
+					"countyname": "Tarrant",
+					"pop": 31519
+				}
+			]
+		},
+		"Farmers Branch": {
+			"ip_addresses": ["67.78.56."],
+			"zip_codes": [
+				{
+					"zip": "75234",
+					"countyname": "Dallas",
+					"pop": 48158
+				}
+			]
+		},
+		"Flower Mound": {
+			"ip_addresses": ["47.185.148.", "47.187.133.", "63.22.204."],
+			"zip_codes": [
+				{
+					"zip": "75022",
+					"countyname": "Denton",
+					"pop": 27201
+				},
+				{
+					"zip": "75028",
+					"countyname": "Denton",
+					"pop": 47804
+				}
+			]
+		},
+		"Fort Stockton": {
+			"ip_addresses": ["12.251.72."],
+			"zip_codes": [
+				{
+					"zip": "79735",
+					"countyname": "Pecos",
+					"pop": 13915
+				}
+			]
+		},
+		"Friendswood": {
+			"ip_addresses": ["50.207.209."],
+			"zip_codes": [
+				{
+					"zip": "77546",
+					"countyname": "Galveston",
+					"pop": 53623
+				}
+			]
+		},
+		"Frisco": {
+			"ip_addresses": ["24.155.190.", "45.21.225."],
+			"zip_codes": [
+				{
+					"zip": "75034",
+					"countyname": "Denton",
+					"pop": 108525
+				},
+				{
+					"zip": "75035",
+					"countyname": "Collin",
+					"pop": 75485
+				}
+			]
+		},
+		"Garland": {
+			"ip_addresses": ["47.184.185.", "47.186.248.", "47.187.226."],
+			"zip_codes": [
+				{
+					"zip": "75040",
+					"countyname": "Dallas",
+					"pop": 62417
+				},
+				{
+					"zip": "75041",
+					"countyname": "Dallas",
+					"pop": 30880
+				},
+				{
+					"zip": "75042",
+					"countyname": "Dallas",
+					"pop": 39183
+				},
+				{
+					"zip": "75043",
+					"countyname": "Dallas",
+					"pop": 62601
+				},
+				{
+					"zip": "75044",
+					"countyname": "Dallas",
+					"pop": 43292
+				}
+			]
+		},
+		"Georgetown": {
+			"ip_addresses": ["4.13.110.", "66.112.246."],
+			"zip_codes": [
+				{
+					"zip": "78626",
+					"countyname": "Williamson",
+					"pop": 36556
+				},
+				{
+					"zip": "78628",
+					"countyname": "Williamson",
+					"pop": 35601
+				},
+				{
+					"zip": "78633",
+					"countyname": "Williamson",
+					"pop": 25853
+				}
+			]
+		},
+		"Grapevine": {
+			"ip_addresses": ["47.184.202.", "63.133.160.", "64.134.76."],
+			"zip_codes": [
+				{
+					"zip": "76051",
+					"countyname": "Tarrant",
+					"pop": 53291
+				}
+			]
+		},
+		"Haltom City": {
+			"ip_addresses": ["66.169.188.", "66.169.189."],
+			"zip_codes": [
+				{
+					"zip": "76117",
+					"countyname": "Tarrant",
+					"pop": 31068
+				}
+			]
+		},
+		"Houston": {
+			"ip_addresses": [
+				"8.23.67.",
+				"12.8.32.",
+				"12.8.38.",
+				"12.43.39.",
+				"12.68.245.",
+				"12.155.35.",
+				"12.195.152.",
+				"12.198.216.",
+				"12.219.120.",
+				"16.35.45.",
+				"16.35.199.",
+				"16.160.30.",
+				"16.186.156.",
+				"24.206.72.",
+				"24.206.149.",
+				"24.206.173.",
+				"24.238.235.",
+				"34.9.77.",
+				"34.131.207.",
+				"38.100.150.",
+				"45.17.135.",
+				"45.33.171.",
+				"50.24.234.",
+				"50.162.2.",
+				"50.162.44.",
+				"50.175.75.",
+				"50.206.107.",
+				"63.123.77.",
+				"63.145.123.",
+				"63.215.186.",
+				"63.236.223.",
+				"64.199.54.",
+				"64.211.171.",
+				"65.16.135.",
+				"65.122.33.",
+				"65.124.92.",
+				"65.175.33.",
+				"65.183.47.",
+				"65.201.78.",
+				"66.3.44.",
+				"66.3.45.",
+				"66.3.46.",
+				"66.67.94.",
+				"66.78.229.",
+				"66.78.230.",
+				"66.78.231.",
+				"66.140.130.",
+				"66.161.197.",
+				"68.88.232."
+			],
+			"zip_codes": [
+				{
+					"zip": "77002",
+					"countyname": "Harris",
+					"pop": 15613
+				},
+				{
+					"zip": "77003",
+					"countyname": "Harris",
+					"pop": 9707
+				},
+				{
+					"zip": "77004",
+					"countyname": "Harris",
+					"pop": 37294
+				},
+				{
+					"zip": "77005",
+					"countyname": "Harris",
+					"pop": 28572
+				},
+				{
+					"zip": "77006",
+					"countyname": "Harris",
+					"pop": 22580
+				},
+				{
+					"zip": "77007",
+					"countyname": "Harris",
+					"pop": 40080
+				},
+				{
+					"zip": "77008",
+					"countyname": "Harris",
+					"pop": 34895
+				},
+				{
+					"zip": "77009",
+					"countyname": "Harris",
+					"pop": 36147
+				},
+				{
+					"zip": "77010",
+					"countyname": "Harris",
+					"pop": 890
+				},
+				{
+					"zip": "77011",
+					"countyname": "Harris",
+					"pop": 17447
+				},
+				{
+					"zip": "77012",
+					"countyname": "Harris",
+					"pop": 19597
+				},
+				{
+					"zip": "77013",
+					"countyname": "Harris",
+					"pop": 19198
+				},
+				{
+					"zip": "77014",
+					"countyname": "Harris",
+					"pop": 37488
+				},
+				{
+					"zip": "77015",
+					"countyname": "Harris",
+					"pop": 56477
+				},
+				{
+					"zip": "77016",
+					"countyname": "Harris",
+					"pop": 30741
+				},
+				{
+					"zip": "77017",
+					"countyname": "Harris",
+					"pop": 32985
+				},
+				{
+					"zip": "77018",
+					"countyname": "Harris",
+					"pop": 28229
+				},
+				{
+					"zip": "77019",
+					"countyname": "Harris",
+					"pop": 22057
+				},
+				{
+					"zip": "77020",
+					"countyname": "Harris",
+					"pop": 26357
+				},
+				{
+					"zip": "77021",
+					"countyname": "Harris",
+					"pop": 26214
+				},
+				{
+					"zip": "77022",
+					"countyname": "Harris",
+					"pop": 27924
+				},
+				{
+					"zip": "77023",
+					"countyname": "Harris",
+					"pop": 29138
+				},
+				{
+					"zip": "77024",
+					"countyname": "Harris",
+					"pop": 38190
+				},
+				{
+					"zip": "77025",
+					"countyname": "Harris",
+					"pop": 28540
+				},
+				{
+					"zip": "77026",
+					"countyname": "Harris",
+					"pop": 21300
+				},
+				{
+					"zip": "77027",
+					"countyname": "Harris",
+					"pop": 18323
+				},
+				{
+					"zip": "77028",
+					"countyname": "Harris",
+					"pop": 17425
+				},
+				{
+					"zip": "77029",
+					"countyname": "Harris",
+					"pop": 17781
+				},
+				{
+					"zip": "77030",
+					"countyname": "Harris",
+					"pop": 11229
+				},
+				{
+					"zip": "77031",
+					"countyname": "Harris",
+					"pop": 18058
+				},
+				{
+					"zip": "77032",
+					"countyname": "Harris",
+					"pop": 14535
+				},
+				{
+					"zip": "77033",
+					"countyname": "Harris",
+					"pop": 30558
+				},
+				{
+					"zip": "77034",
+					"countyname": "Harris",
+					"pop": 40635
+				},
+				{
+					"zip": "77035",
+					"countyname": "Harris",
+					"pop": 36931
+				},
+				{
+					"zip": "77036",
+					"countyname": "Harris",
+					"pop": 74472
+				},
+				{
+					"zip": "77037",
+					"countyname": "Harris",
+					"pop": 18966
+				},
+				{
+					"zip": "77038",
+					"countyname": "Harris",
+					"pop": 31912
+				},
+				{
+					"zip": "77039",
+					"countyname": "Harris",
+					"pop": 28877
+				},
+				{
+					"zip": "77040",
+					"countyname": "Harris",
+					"pop": 47823
+				},
+				{
+					"zip": "77041",
+					"countyname": "Harris",
+					"pop": 33941
+				},
+				{
+					"zip": "77042",
+					"countyname": "Harris",
+					"pop": 41734
+				},
+				{
+					"zip": "77043",
+					"countyname": "Harris",
+					"pop": 24803
+				},
+				{
+					"zip": "77044",
+					"countyname": "Harris",
+					"pop": 48783
+				},
+				{
+					"zip": "77045",
+					"countyname": "Harris",
+					"pop": 36532
+				},
+				{
+					"zip": "77046",
+					"countyname": "Harris",
+					"pop": 1207
+				},
+				{
+					"zip": "77047",
+					"countyname": "Harris",
+					"pop": 32616
+				},
+				{
+					"zip": "77048",
+					"countyname": "Harris",
+					"pop": 18383
+				},
+				{
+					"zip": "77049",
+					"countyname": "Harris",
+					"pop": 36434
+				},
+				{
+					"zip": "77050",
+					"countyname": "Harris",
+					"pop": 4741
+				},
+				{
+					"zip": "77051",
+					"countyname": "Harris",
+					"pop": 17221
+				},
+				{
+					"zip": "77053",
+					"countyname": "Fort Bend",
+					"pop": 31650
+				},
+				{
+					"zip": "77054",
+					"countyname": "Harris",
+					"pop": 23267
+				},
+				{
+					"zip": "77055",
+					"countyname": "Harris",
+					"pop": 44671
+				},
+				{
+					"zip": "77056",
+					"countyname": "Harris",
+					"pop": 22056
+				},
+				{
+					"zip": "77057",
+					"countyname": "Harris",
+					"pop": 41690
+				},
+				{
+					"zip": "77058",
+					"countyname": "Harris",
+					"pop": 16120
+				},
+				{
+					"zip": "77059",
+					"countyname": "Harris",
+					"pop": 17254
+				},
+				{
+					"zip": "77060",
+					"countyname": "Harris",
+					"pop": 45642
+				},
+				{
+					"zip": "77061",
+					"countyname": "Harris",
+					"pop": 26253
+				},
+				{
+					"zip": "77062",
+					"countyname": "Harris",
+					"pop": 26477
+				},
+				{
+					"zip": "77063",
+					"countyname": "Harris",
+					"pop": 39249
+				},
+				{
+					"zip": "77064",
+					"countyname": "Harris",
+					"pop": 48637
+				},
+				{
+					"zip": "77065",
+					"countyname": "Harris",
+					"pop": 37793
+				},
+				{
+					"zip": "77066",
+					"countyname": "Harris",
+					"pop": 35676
+				},
+				{
+					"zip": "77067",
+					"countyname": "Harris",
+					"pop": 35227
+				},
+				{
+					"zip": "77068",
+					"countyname": "Harris",
+					"pop": 11011
+				},
+				{
+					"zip": "77069",
+					"countyname": "Harris",
+					"pop": 19345
+				},
+				{
+					"zip": "77070",
+					"countyname": "Harris",
+					"pop": 53057
+				},
+				{
+					"zip": "77071",
+					"countyname": "Harris",
+					"pop": 28888
+				},
+				{
+					"zip": "77072",
+					"countyname": "Harris",
+					"pop": 61122
+				},
+				{
+					"zip": "77073",
+					"countyname": "Harris",
+					"pop": 39939
+				},
+				{
+					"zip": "77074",
+					"countyname": "Harris",
+					"pop": 40978
+				},
+				{
+					"zip": "77075",
+					"countyname": "Harris",
+					"pop": 44517
+				},
+				{
+					"zip": "77076",
+					"countyname": "Harris",
+					"pop": 36009
+				},
+				{
+					"zip": "77077",
+					"countyname": "Harris",
+					"pop": 59588
+				},
+				{
+					"zip": "77078",
+					"countyname": "Harris",
+					"pop": 15663
+				},
+				{
+					"zip": "77079",
+					"countyname": "Harris",
+					"pop": 34122
+				},
+				{
+					"zip": "77080",
+					"countyname": "Harris",
+					"pop": 45586
+				},
+				{
+					"zip": "77081",
+					"countyname": "Harris",
+					"pop": 53031
+				},
+				{
+					"zip": "77082",
+					"countyname": "Harris",
+					"pop": 55056
+				},
+				{
+					"zip": "77083",
+					"countyname": "Harris",
+					"pop": 78298
+				},
+				{
+					"zip": "77084",
+					"countyname": "Harris",
+					"pop": 107673
+				},
+				{
+					"zip": "77085",
+					"countyname": "Harris",
+					"pop": 17991
+				},
+				{
+					"zip": "77086",
+					"countyname": "Harris",
+					"pop": 28636
+				},
+				{
+					"zip": "77087",
+					"countyname": "Harris",
+					"pop": 37886
+				},
+				{
+					"zip": "77088",
+					"countyname": "Harris",
+					"pop": 55734
+				},
+				{
+					"zip": "77089",
+					"countyname": "Harris",
+					"pop": 54751
+				},
+				{
+					"zip": "77090",
+					"countyname": "Harris",
+					"pop": 40761
+				},
+				{
+					"zip": "77091",
+					"countyname": "Harris",
+					"pop": 27750
+				},
+				{
+					"zip": "77092",
+					"countyname": "Harris",
+					"pop": 38458
+				},
+				{
+					"zip": "77093",
+					"countyname": "Harris",
+					"pop": 47135
+				},
+				{
+					"zip": "77094",
+					"countyname": "Harris",
+					"pop": 10271
+				},
+				{
+					"zip": "77095",
+					"countyname": "Harris",
+					"pop": 70692
+				},
+				{
+					"zip": "77096",
+					"countyname": "Harris",
+					"pop": 32682
+				},
+				{
+					"zip": "77098",
+					"countyname": "Harris",
+					"pop": 13818
+				},
+				{
+					"zip": "77099",
+					"countyname": "Harris",
+					"pop": 52294
+				},
+				{
+					"zip": "77201",
+					"countyname": "Harris",
+					"pop": 0
+				}
+			]
+		},
+		"Huntsville": {
+			"ip_addresses": ["66.171.6."],
+			"zip_codes": [
+				{
+					"zip": "77320",
+					"countyname": "Walker",
+					"pop": 36122
+				},
+				{
+					"zip": "77340",
+					"countyname": "Walker",
+					"pop": 31352
+				},
+				{
+					"zip": "77342",
+					"countyname": "Walker",
+					"pop": 0
+				}
+			]
+		},
+		"Hurst": {
+			"ip_addresses": ["68.91.35."],
+			"zip_codes": [
+				{
+					"zip": "76053",
+					"countyname": "Tarrant",
+					"pop": 30765
+				},
+				{
+					"zip": "76054",
+					"countyname": "Tarrant",
+					"pop": 12280
+				}
+			]
+		},
+		"Irving": {
+			"ip_addresses": [
+				"50.84.165.",
+				"50.84.181.",
+				"63.94.213.",
+				"64.129.174.",
+				"64.195.138.",
+				"64.195.139.",
+				"64.195.140.",
+				"64.195.141.",
+				"64.195.142.",
+				"64.195.143.",
+				"66.25.22.",
+				"66.218.96."
+			],
+			"zip_codes": [
+				{
+					"zip": "75038",
+					"countyname": "Dallas",
+					"pop": 29990
+				},
+				{
+					"zip": "75039",
+					"countyname": "Dallas",
+					"pop": 20108
+				},
+				{
+					"zip": "75060",
+					"countyname": "Dallas",
+					"pop": 47764
+				},
+				{
+					"zip": "75061",
+					"countyname": "Dallas",
+					"pop": 54520
+				},
+				{
+					"zip": "75062",
+					"countyname": "Dallas",
+					"pop": 49306
+				},
+				{
+					"zip": "75063",
+					"countyname": "Dallas",
+					"pop": 40048
+				}
+			]
+		},
+		"Katy": {
+			"ip_addresses": ["12.109.21.", "64.29.184."],
+			"zip_codes": [
+				{
+					"zip": "77449",
+					"countyname": "Harris",
+					"pop": 128294
+				},
+				{
+					"zip": "77450",
+					"countyname": "Harris",
+					"pop": 73692
+				},
+				{
+					"zip": "77493",
+					"countyname": "Harris",
+					"pop": 36334
+				},
+				{
+					"zip": "77494",
+					"countyname": "Fort Bend",
+					"pop": 118291
+				}
+			]
+		},
+		"Keller": {
+			"ip_addresses": ["64.244.179.", "67.76.51."],
+			"zip_codes": [
+				{
+					"zip": "76244",
+					"countyname": "Tarrant",
+					"pop": 77496
+				},
+				{
+					"zip": "76248",
+					"countyname": "Tarrant",
+					"pop": 39665
+				}
+			]
+		},
+		"Killeen": {
+			"ip_addresses": ["24.243.227."],
+			"zip_codes": [
+				{
+					"zip": "76541",
+					"countyname": "Bell",
+					"pop": 17691
+				},
+				{
+					"zip": "76542",
+					"countyname": "Bell",
+					"pop": 51405
+				},
+				{
+					"zip": "76543",
+					"countyname": "Bell",
+					"pop": 30268
+				},
+				{
+					"zip": "76549",
+					"countyname": "Bell",
+					"pop": 52012
+				}
+			]
+		},
+		"Kingwood": {
+			"ip_addresses": ["24.32.224."],
+			"zip_codes": [
+				{
+					"zip": "77339",
+					"countyname": "Harris",
+					"pop": 40133
+				},
+				{
+					"zip": "77345",
+					"countyname": "Harris",
+					"pop": 27993
+				}
+			]
+		},
+		"Kyle": {
+			"ip_addresses": ["66.68.164."],
+			"zip_codes": [
+				{
+					"zip": "78640",
+					"countyname": "Hays",
+					"pop": 58790
+				}
+			]
+		},
+		"La Grange": {
+			"ip_addresses": ["66.220.139."],
+			"zip_codes": [
+				{
+					"zip": "78945",
+					"countyname": "Fayette",
+					"pop": 10767
+				}
+			]
+		},
+		"Lancaster": {
+			"ip_addresses": ["68.88.193."],
+			"zip_codes": [
+				{
+					"zip": "75134",
+					"countyname": "Dallas",
+					"pop": 21879
+				},
+				{
+					"zip": "75146",
+					"countyname": "Dallas",
+					"pop": 19701
+				}
+			]
+		},
+		"Laredo": {
+			"ip_addresses": ["64.6.50."],
+			"zip_codes": [
+				{
+					"zip": "78040",
+					"countyname": "Webb",
+					"pop": 40939
+				},
+				{
+					"zip": "78041",
+					"countyname": "Webb",
+					"pop": 47753
+				},
+				{
+					"zip": "78043",
+					"countyname": "Webb",
+					"pop": 45532
+				},
+				{
+					"zip": "78044",
+					"countyname": "Webb",
+					"pop": 519
+				},
+				{
+					"zip": "78045",
+					"countyname": "Webb",
+					"pop": 66685
+				},
+				{
+					"zip": "78046",
+					"countyname": "Webb",
+					"pop": 70989
+				}
+			]
+		},
+		"Leander": {
+			"ip_addresses": ["24.28.20."],
+			"zip_codes": [
+				{
+					"zip": "78641",
+					"countyname": "Williamson",
+					"pop": 72078
+				},
+				{
+					"zip": "78645",
+					"countyname": "Travis",
+					"pop": 11579
+				}
+			]
+		},
+		"Lewisville": {
+			"ip_addresses": ["47.187.76."],
+			"zip_codes": [
+				{
+					"zip": "75057",
+					"countyname": "Denton",
+					"pop": 14960
+				},
+				{
+					"zip": "75067",
+					"countyname": "Denton",
+					"pop": 68196
+				},
+				{
+					"zip": "75077",
+					"countyname": "Denton",
+					"pop": 37102
+				}
+			]
+		},
+		"Longview": {
+			"ip_addresses": ["24.204.52.", "66.185.67."],
+			"zip_codes": [
+				{
+					"zip": "75601",
+					"countyname": "Gregg",
+					"pop": 15719
+				},
+				{
+					"zip": "75602",
+					"countyname": "Gregg",
+					"pop": 21655
+				},
+				{
+					"zip": "75603",
+					"countyname": "Gregg",
+					"pop": 6100
+				},
+				{
+					"zip": "75604",
+					"countyname": "Gregg",
+					"pop": 31027
+				},
+				{
+					"zip": "75605",
+					"countyname": "Gregg",
+					"pop": 30501
+				}
+			]
+		},
+		"Lubbock": {
+			"ip_addresses": [
+				"12.2.116.",
+				"12.38.125.",
+				"50.94.139.",
+				"67.22.223."
+			],
+			"zip_codes": [
+				{
+					"zip": "79401",
+					"countyname": "Lubbock",
+					"pop": 7912
+				},
+				{
+					"zip": "79403",
+					"countyname": "Lubbock",
+					"pop": 17926
+				},
+				{
+					"zip": "79404",
+					"countyname": "Lubbock",
+					"pop": 10094
+				},
+				{
+					"zip": "79406",
+					"countyname": "Lubbock",
+					"pop": 7017
+				},
+				{
+					"zip": "79407",
+					"countyname": "Lubbock",
+					"pop": 22807
+				},
+				{
+					"zip": "79410",
+					"countyname": "Lubbock",
+					"pop": 10166
+				},
+				{
+					"zip": "79411",
+					"countyname": "Lubbock",
+					"pop": 7012
+				},
+				{
+					"zip": "79412",
+					"countyname": "Lubbock",
+					"pop": 16554
+				},
+				{
+					"zip": "79413",
+					"countyname": "Lubbock",
+					"pop": 21821
+				},
+				{
+					"zip": "79414",
+					"countyname": "Lubbock",
+					"pop": 18731
+				},
+				{
+					"zip": "79415",
+					"countyname": "Lubbock",
+					"pop": 17939
+				},
+				{
+					"zip": "79416",
+					"countyname": "Lubbock",
+					"pop": 34124
+				},
+				{
+					"zip": "79423",
+					"countyname": "Lubbock",
+					"pop": 40303
+				},
+				{
+					"zip": "79424",
+					"countyname": "Lubbock",
+					"pop": 46933
+				}
+			]
+		},
+		"Lufkin": {
+			"ip_addresses": ["38.114.200.", "47.219.200."],
+			"zip_codes": [
+				{
+					"zip": "75901",
+					"countyname": "Angelina",
+					"pop": 30429
+				},
+				{
+					"zip": "75904",
+					"countyname": "Angelina",
+					"pop": 34406
+				}
+			]
+		},
+		"McAllen": {
+			"ip_addresses": [
+				"12.218.97.",
+				"24.243.98.",
+				"67.10.39.",
+				"24.243.150.",
+				"24.243.151.",
+				"24.243.152.",
+				"38.103.227.",
+				"67.10.80."
+			],
+			"zip_codes": [
+				{
+					"zip": "78501",
+					"countyname": "Hidalgo",
+					"pop": 63066
+				},
+				{
+					"zip": "78503",
+					"countyname": "Hidalgo",
+					"pop": 21644
+				},
+				{
+					"zip": "78504",
+					"countyname": "Hidalgo",
+					"pop": 57410
+				}
+			]
+		},
+		"McKinney": {
+			"ip_addresses": ["47.182.27."],
+			"zip_codes": [
+				{
+					"zip": "75069",
+					"countyname": "Collin",
+					"pop": 37892
+				},
+				{
+					"zip": "75070",
+					"countyname": "Collin",
+					"pop": 104415
+				},
+				{
+					"zip": "75071",
+					"countyname": "Collin",
+					"pop": 55570
+				}
+			]
+		},
+		"Mineral Wells": {
+			"ip_addresses": ["66.190.64."],
+			"zip_codes": [
+				{
+					"zip": "76067",
+					"countyname": "Palo Pinto",
+					"pop": 20309
+				}
+			]
+		},
+		"Missouri City": {
+			"ip_addresses": ["50.30.144."],
+			"zip_codes": [
+				{
+					"zip": "77459",
+					"countyname": "Fort Bend",
+					"pop": 72788
+				},
+				{
+					"zip": "77489",
+					"countyname": "Fort Bend",
+					"pop": 38242
+				}
+			]
+		},
+		"Normangee": {
+			"ip_addresses": ["66.76.77."],
+			"zip_codes": [
+				{
+					"zip": "77871",
+					"countyname": "Leon",
+					"pop": 2738
+				}
+			]
+		},
+		"Odessa": {
+			"ip_addresses": ["24.32.137."],
+			"zip_codes": [
+				{
+					"zip": "79761",
+					"countyname": "Ector",
+					"pop": 33602
+				},
+				{
+					"zip": "79762",
+					"countyname": "Ector",
+					"pop": 43812
+				},
+				{
+					"zip": "79763",
+					"countyname": "Ector",
+					"pop": 38833
+				},
+				{
+					"zip": "79764",
+					"countyname": "Ector",
+					"pop": 22172
+				},
+				{
+					"zip": "79765",
+					"countyname": "Ector",
+					"pop": 16486
+				},
+				{
+					"zip": "79766",
+					"countyname": "Ector",
+					"pop": 7694
+				}
+			]
+		},
+		"Pasadena": {
+			"ip_addresses": ["50.252.46."],
+			"zip_codes": [
+				{
+					"zip": "77502",
+					"countyname": "Harris",
+					"pop": 38199
+				},
+				{
+					"zip": "77503",
+					"countyname": "Harris",
+					"pop": 24808
+				},
+				{
+					"zip": "77504",
+					"countyname": "Harris",
+					"pop": 24954
+				},
+				{
+					"zip": "77505",
+					"countyname": "Harris",
+					"pop": 24223
+				},
+				{
+					"zip": "77506",
+					"countyname": "Harris",
+					"pop": 38765
+				},
+				{
+					"zip": "77507",
+					"countyname": "Harris",
+					"pop": 312
+				}
+			]
+		},
+		"Perryton": {
+			"ip_addresses": ["67.219.174."],
+			"zip_codes": [
+				{
+					"zip": "79070",
+					"countyname": "Ochiltree",
+					"pop": 9851
+				}
+			]
+		},
+		"Pflugerville": {
+			"ip_addresses": ["24.242.89."],
+			"zip_codes": [
+				{
+					"zip": "78660",
+					"countyname": "Travis",
+					"pop": 91300
+				}
+			]
+		},
+		"Pharr": {
+			"ip_addresses": ["67.10.20."],
+			"zip_codes": [
+				{
+					"zip": "78577",
+					"countyname": "Hidalgo",
+					"pop": 78103
+				}
+			]
+		},
+		"Plano": {
+			"ip_addresses": [
+				"12.97.234.",
+				"12.190.83.",
+				"23.62.225.",
+				"24.173.213.",
+				"47.185.248.",
+				"50.84.81.",
+				"50.84.110.",
+				"65.42.136.",
+				"65.69.239.",
+				"65.71.223.",
+				"66.138.79.",
+				"66.140.20.",
+				"66.140.197.",
+				"66.141.151.",
+				"66.143.7.",
+				"67.65.12.",
+				"67.66.13.",
+				"68.20.41.",
+				"68.20.53.",
+				"68.22.119.",
+				"68.72.56.",
+				"68.88.24.",
+				"68.88.169.",
+				"68.90.204.",
+				"68.93.19.",
+				"68.93.208."
+			],
+			"zip_codes": [
+				{
+					"zip": "75023",
+					"countyname": "Collin",
+					"pop": 50431
+				},
+				{
+					"zip": "75024",
+					"countyname": "Collin",
+					"pop": 43551
+				},
+				{
+					"zip": "75025",
+					"countyname": "Collin",
+					"pop": 53764
+				},
+				{
+					"zip": "75074",
+					"countyname": "Collin",
+					"pop": 52259
+				},
+				{
+					"zip": "75075",
+					"countyname": "Collin",
+					"pop": 38283
+				},
+				{
+					"zip": "75093",
+					"countyname": "Collin",
+					"pop": 46788
+				},
+				{
+					"zip": "75094",
+					"countyname": "Collin",
+					"pop": 23239
+				}
+			]
+		},
+		"Richardson": {
+			"ip_addresses": [
+				"23.113.179.",
+				"23.123.121.",
+				"23.126.17.",
+				"24.27.103.",
+				"45.23.148.",
+				"47.186.44.",
+				"47.186.233.",
+				"50.84.237.",
+				"63.199.94.",
+				"63.201.89.",
+				"63.203.212.",
+				"63.203.213.",
+				"63.204.90.",
+				"63.204.168.",
+				"63.207.220.",
+				"64.109.192.",
+				"64.123.188.",
+				"64.148.35.",
+				"64.149.192.",
+				"64.217.8.",
+				"64.218.64.",
+				"64.252.212.",
+				"64.252.213.",
+				"64.252.214.",
+				"64.252.215.",
+				"64.252.216.",
+				"64.252.217.",
+				"64.252.218.",
+				"64.252.219.",
+				"64.252.220.",
+				"64.252.221.",
+				"64.252.222.",
+				"64.252.223.",
+				"64.252.224.",
+				"64.252.225.",
+				"64.252.226.",
+				"64.252.227.",
+				"64.252.228.",
+				"64.252.229.",
+				"64.252.230.",
+				"64.252.231.",
+				"64.252.232.",
+				"64.252.233.",
+				"64.252.234.",
+				"64.252.235.",
+				"64.252.236.",
+				"64.252.237.",
+				"64.252.238.",
+				"65.64.221.",
+				"65.64.222.",
+				"65.64.223.",
+				"65.65.49.",
+				"65.65.133.",
+				"65.68.3.",
+				"65.68.4.",
+				"65.69.103.",
+				"65.70.92.",
+				"65.70.203.",
+				"66.73.64.",
+				"66.73.74.",
+				"66.136.184.",
+				"66.136.185.",
+				"66.136.186.",
+				"66.136.187.",
+				"66.137.185.",
+				"66.138.90.",
+				"66.138.5.",
+				"66.142.202.",
+				"66.226.197.",
+				"67.38.82.",
+				"67.39.101.",
+				"67.64.87.",
+				"67.67.134.",
+				"67.115.107.",
+				"67.117.108.",
+				"67.121.40.",
+				"67.122.104.",
+				"67.123.146.",
+				"67.127.68.",
+				"68.23.31.",
+				"68.72.0.",
+				"68.72.114.",
+				"68.72.157.",
+				"68.72.158.",
+				"68.89.77.",
+				"68.91.19.",
+				"68.94.48.",
+				"68.95.210.",
+				"68.122.157."
+			],
+			"zip_codes": [
+				{
+					"zip": "75080",
+					"countyname": "Dallas",
+					"pop": 52531
+				},
+				{
+					"zip": "75081",
+					"countyname": "Dallas",
+					"pop": 40265
+				},
+				{
+					"zip": "75082",
+					"countyname": "Collin",
+					"pop": 23483
+				}
+			]
+		},
+		"Rio Grande City": {
+			"ip_addresses": ["23.139.64."],
+			"zip_codes": [
+				{
+					"zip": "78582",
+					"countyname": "Starr",
+					"pop": 43074
+				}
+			]
+		},
+		"Rocksprings": {
+			"ip_addresses": ["63.174.141."],
+			"zip_codes": [
+				{
+					"zip": "78880",
+					"countyname": "Edwards",
+					"pop": 1626
+				}
+			]
+		},
+		"Rosenberg": {
+			"ip_addresses": ["66.235.81."],
+			"zip_codes": [
+				{
+					"zip": "77471",
+					"countyname": "Fort Bend",
+					"pop": 41212
+				}
+			]
+		},
+		"Round Rock": {
+			"ip_addresses": ["52.144.99."],
+			"zip_codes": [
+				{
+					"zip": "78664",
+					"countyname": "Williamson",
+					"pop": 64686
+				},
+				{
+					"zip": "78665",
+					"countyname": "Williamson",
+					"pop": 49074
+				},
+				{
+					"zip": "78681",
+					"countyname": "Williamson",
+					"pop": 58155
+				}
+			]
+		},
+		"Sachse": {
+			"ip_addresses": ["47.184.162."],
+			"zip_codes": [
+				{
+					"zip": "75048",
+					"countyname": "Dallas",
+					"pop": 25598
+				}
+			]
+		},
+		"San Antonio": {
+			"ip_addresses": [
+				"8.9.196.",
+				"12.7.34.",
+				"12.7.35.",
+				"12.27.88.",
+				"12.190.120.",
+				"12.207.43.",
+				"12.211.20.",
+				"15.105.28.",
+				"15.105.182.",
+				"15.109.33.",
+				"15.109.99.",
+				"15.110.110.",
+				"15.114.210.",
+				"15.115.59.",
+				"15.116.44.",
+				"15.117.166.",
+				"15.118.122.",
+				"15.118.179.",
+				"15.118.251.",
+				"15.120.12.",
+				"15.120.71.",
+				"15.120.150.",
+				"15.120.172.",
+				"15.121.102.",
+				"15.122.12.",
+				"15.122.23.",
+				"15.126.8.",
+				"15.127.180.",
+				"15.128.234.",
+				"15.128.235.",
+				"15.128.254.",
+				"15.129.7.",
+				"15.129.118.",
+				"15.131.196.",
+				"15.131.197.",
+				"15.131.198.",
+				"15.131.199.",
+				"15.131.200.",
+				"15.132.18.",
+				"15.132.71.",
+				"15.132.72.",
+				"15.133.222.",
+				"15.134.233.",
+				"15.134.234.",
+				"15.135.133.",
+				"15.135.219.",
+				"15.136.111.",
+				"15.137.122.",
+				"15.137.172.",
+				"15.138.0.",
+				"15.138.1.",
+				"15.140.41.",
+				"15.141.27.",
+				"15.142.164.",
+				"15.143.78.",
+				"15.143.175.",
+				"15.145.145.",
+				"15.145.242.",
+				"15.146.97.",
+				"15.149.7.",
+				"15.149.217.",
+				"15.149.233.",
+				"15.150.12.",
+				"15.150.168.",
+				"15.150.169.",
+				"15.152.9.",
+				"15.153.121.",
+				"15.153.133.",
+				"15.154.136.",
+				"15.154.137.",
+				"15.155.5.",
+				"15.155.249.",
+				"15.156.247.",
+				"15.156.248.",
+				"15.157.163.",
+				"15.158.33.",
+				"15.158.179.",
+				"15.159.219.",
+				"15.160.97.",
+				"15.160.98.",
+				"15.160.99.",
+				"15.160.200.",
+				"15.160.201.",
+				"15.160.202.",
+				"15.161.146.",
+				"15.161.233.",
+				"15.162.156.",
+				"15.162.246.",
+				"15.162.247.",
+				"15.162.248.",
+				"15.162.249.",
+				"15.162.231.",
+				"15.165.19.",
+				"15.165.122.",
+				"15.167.62.",
+				"15.168.166.",
+				"15.169.34.",
+				"15.169.145.",
+				"15.169.231.",
+				"15.170.39.",
+				"15.170.117.",
+				"15.173.25.",
+				"15.173.118.",
+				"15.173.231.",
+				"15.174.40.",
+				"15.176.53.",
+				"15.176.79.",
+				"15.176.80.",
+				"15.176.81.",
+				"15.176.129.",
+				"15.177.123.",
+				"15.176.164.",
+				"15.177.176.",
+				"15.177.254.",
+				"15.178.149.",
+				"15.180.1.",
+				"15.180.224.",
+				"15.181.151.",
+				"15.181.152.",
+				"15.181.177.",
+				"15.183.87.",
+				"15.183.211.",
+				"15.184.201.",
+				"15.188.81.",
+				"15.188.237.",
+				"15.189.87.",
+				"15.189.88.",
+				"15.190.90.",
+				"15.190.132.",
+				"15.191.51.",
+				"15.191.124.",
+				"15.193.69.",
+				"15.193.70.",
+				"15.193.183.",
+				"15.193.203.",
+				"15.204.130.",
+				"15.204.186.",
+				"15.208.102.",
+				"15.209.138.",
+				"15.211.169.",
+				"15.213.214.",
+				"15.213.241.",
+				"15.214.133.",
+				"15.214.237.",
+				"15.216.72.",
+				"15.216.199.",
+				"15.219.34.",
+				"12.219.40.",
+				"15.221.80.",
+				"15.224.59.",
+				"15.224.247.",
+				"15.225.148.",
+				"15.226.90.",
+				"15.227.75.",
+				"15.227.214.",
+				"15.234.104.",
+				"15.235.202.",
+				"15.235.203.",
+				"15.236.92.",
+				"15.237.79.",
+				"15.239.64.",
+				"15.243.228.",
+				"15.243.229.",
+				"15.243.241.",
+				"15.244.168.",
+				"15.248.37.",
+				"15.248.238.",
+				"15.250.151.",
+				"15.251.2.",
+				"15.251.230.",
+				"15.252.43.",
+				"15.252.185.",
+				"15.255.94.",
+				"15.255.200.",
+				"15.255.204.",
+				"40.141.126.",
+				"50.84.228.",
+				"50.95.50.",
+				"52.239.178.",
+				"64.129.98.",
+				"64.215.241.",
+				"67.65.14.",
+				"67.155.93.",
+				"68.98.252.",
+				"50.56.36."
+			],
+			"zip_codes": [
+				{
+					"zip": "78201",
+					"countyname": "Bexar",
+					"pop": 48334
+				},
+				{
+					"zip": "78202",
+					"countyname": "Bexar",
+					"pop": 11453
+				},
+				{
+					"zip": "78203",
+					"countyname": "Bexar",
+					"pop": 6180
+				},
+				{
+					"zip": "78204",
+					"countyname": "Bexar",
+					"pop": 12231
+				},
+				{
+					"zip": "78205",
+					"countyname": "Bexar",
+					"pop": 1441
+				},
+				{
+					"zip": "78207",
+					"countyname": "Bexar",
+					"pop": 55484
+				},
+				{
+					"zip": "78208",
+					"countyname": "Bexar",
+					"pop": 4913
+				},
+				{
+					"zip": "78209",
+					"countyname": "Bexar",
+					"pop": 42653
+				},
+				{
+					"zip": "78210",
+					"countyname": "Bexar",
+					"pop": 37683
+				},
+				{
+					"zip": "78211",
+					"countyname": "Bexar",
+					"pop": 32769
+				},
+				{
+					"zip": "78212",
+					"countyname": "Bexar",
+					"pop": 28865
+				},
+				{
+					"zip": "78213",
+					"countyname": "Bexar",
+					"pop": 44813
+				},
+				{
+					"zip": "78214",
+					"countyname": "Bexar",
+					"pop": 27558
+				},
+				{
+					"zip": "78215",
+					"countyname": "Bexar",
+					"pop": 2915
+				},
+				{
+					"zip": "78216",
+					"countyname": "Bexar",
+					"pop": 43554
+				},
+				{
+					"zip": "78217",
+					"countyname": "Bexar",
+					"pop": 34159
+				},
+				{
+					"zip": "78218",
+					"countyname": "Bexar",
+					"pop": 37281
+				},
+				{
+					"zip": "78219",
+					"countyname": "Bexar",
+					"pop": 17239
+				},
+				{
+					"zip": "78220",
+					"countyname": "Bexar",
+					"pop": 16700
+				},
+				{
+					"zip": "78221",
+					"countyname": "Bexar",
+					"pop": 41185
+				},
+				{
+					"zip": "78222",
+					"countyname": "Bexar",
+					"pop": 25227
+				},
+				{
+					"zip": "78223",
+					"countyname": "Bexar",
+					"pop": 56055
+				},
+				{
+					"zip": "78224",
+					"countyname": "Bexar",
+					"pop": 22851
+				},
+				{
+					"zip": "78225",
+					"countyname": "Bexar",
+					"pop": 14472
+				},
+				{
+					"zip": "78226",
+					"countyname": "Bexar",
+					"pop": 7906
+				},
+				{
+					"zip": "78227",
+					"countyname": "Bexar",
+					"pop": 51394
+				},
+				{
+					"zip": "78228",
+					"countyname": "Bexar",
+					"pop": 62359
+				},
+				{
+					"zip": "78229",
+					"countyname": "Bexar",
+					"pop": 34125
+				},
+				{
+					"zip": "78230",
+					"countyname": "Bexar",
+					"pop": 45021
+				},
+				{
+					"zip": "78231",
+					"countyname": "Bexar",
+					"pop": 9001
+				},
+				{
+					"zip": "78232",
+					"countyname": "Bexar",
+					"pop": 39072
+				},
+				{
+					"zip": "78233",
+					"countyname": "Bexar",
+					"pop": 50103
+				},
+				{
+					"zip": "78235",
+					"countyname": "Bexar",
+					"pop": 1476
+				},
+				{
+					"zip": "78237",
+					"countyname": "Bexar",
+					"pop": 39105
+				},
+				{
+					"zip": "78238",
+					"countyname": "Bexar",
+					"pop": 25660
+				},
+				{
+					"zip": "78239",
+					"countyname": "Bexar",
+					"pop": 27431
+				},
+				{
+					"zip": "78240",
+					"countyname": "Bexar",
+					"pop": 60927
+				},
+				{
+					"zip": "78242",
+					"countyname": "Bexar",
+					"pop": 34893
+				},
+				{
+					"zip": "78243",
+					"countyname": "Bexar",
+					"pop": 408
+				},
+				{
+					"zip": "78244",
+					"countyname": "Bexar",
+					"pop": 30981
+				},
+				{
+					"zip": "78245",
+					"countyname": "Bexar",
+					"pop": 76518
+				},
+				{
+					"zip": "78247",
+					"countyname": "Bexar",
+					"pop": 53892
+				},
+				{
+					"zip": "78248",
+					"countyname": "Bexar",
+					"pop": 14345
+				},
+				{
+					"zip": "78249",
+					"countyname": "Bexar",
+					"pop": 61639
+				},
+				{
+					"zip": "78250",
+					"countyname": "Bexar",
+					"pop": 61669
+				},
+				{
+					"zip": "78251",
+					"countyname": "Bexar",
+					"pop": 62186
+				},
+				{
+					"zip": "78252",
+					"countyname": "Bexar",
+					"pop": 12009
+				},
+				{
+					"zip": "78253",
+					"countyname": "Bexar",
+					"pop": 43770
+				},
+				{
+					"zip": "78254",
+					"countyname": "Bexar",
+					"pop": 59107
+				},
+				{
+					"zip": "78255",
+					"countyname": "Bexar",
+					"pop": 14825
+				},
+				{
+					"zip": "78256",
+					"countyname": "Bexar",
+					"pop": 11238
+				},
+				{
+					"zip": "78257",
+					"countyname": "Bexar",
+					"pop": 7538
+				},
+				{
+					"zip": "78258",
+					"countyname": "Bexar",
+					"pop": 44747
+				},
+				{
+					"zip": "78259",
+					"countyname": "Bexar",
+					"pop": 26338
+				},
+				{
+					"zip": "78260",
+					"countyname": "Bexar",
+					"pop": 26301
+				},
+				{
+					"zip": "78261",
+					"countyname": "Bexar",
+					"pop": 16749
+				},
+				{
+					"zip": "78263",
+					"countyname": "Bexar",
+					"pop": 4440
+				},
+				{
+					"zip": "78264",
+					"countyname": "Bexar",
+					"pop": 10623
+				},
+				{
+					"zip": "78266",
+					"countyname": "Comal",
+					"pop": 6913
+				}
+			]
+		},
+		"San Marcos": {
+			"ip_addresses": ["24.155.227.", "64.134.224.", "66.90.132."],
+			"zip_codes": [
+				{
+					"zip": "78666",
+					"countyname": "Hays",
+					"pop": 82923
+				}
+			]
+		},
+		"Schertz": {
+			"ip_addresses": [
+				"45.21.35.",
+				"38.65.97.",
+				"45.21.35.",
+				"67.11.166."
+			],
+			"zip_codes": [
+				{
+					"zip": "78154",
+					"countyname": "Guadalupe",
+					"pop": 41272
+				}
+			]
+		},
+		"Seguin": {
+			"ip_addresses": ["67.78.77.", "67.179.27."],
+			"zip_codes": [
+				{
+					"zip": "78155",
+					"countyname": "Guadalupe",
+					"pop": 48909
+				}
+			]
+		},
+		"Sherman": {
+			"ip_addresses": ["47.182.60."],
+			"zip_codes": [
+				{
+					"zip": "75090",
+					"countyname": "Grayson",
+					"pop": 25418
+				},
+				{
+					"zip": "75092",
+					"countyname": "Grayson",
+					"pop": 24905
+				}
+			]
+		},
+		"Spring": {
+			"ip_addresses": ["64.22.112."],
+			"zip_codes": [
+				{
+					"zip": "77373",
+					"countyname": "Harris",
+					"pop": 61501
+				},
+				{
+					"zip": "77379",
+					"countyname": "Harris",
+					"pop": 81368
+				},
+				{
+					"zip": "77380",
+					"countyname": "Montgomery",
+					"pop": 25761
+				},
+				{
+					"zip": "77381",
+					"countyname": "Montgomery",
+					"pop": 36160
+				},
+				{
+					"zip": "77382",
+					"countyname": "Montgomery",
+					"pop": 41581
+				},
+				{
+					"zip": "77386",
+					"countyname": "Montgomery",
+					"pop": 57421
+				},
+				{
+					"zip": "77388",
+					"countyname": "Harris",
+					"pop": 50701
+				},
+				{
+					"zip": "77389",
+					"countyname": "Harris",
+					"pop": 38222
+				}
+			]
+		},
+		"Stafford": {
+			"ip_addresses": ["65.174.248."],
+			"zip_codes": [
+				{
+					"zip": "77477",
+					"countyname": "Fort Bend",
+					"pop": 35830
+				}
+			]
+		},
+		"Stephenville": {
+			"ip_addresses": ["67.21.188."],
+			"zip_codes": [
+				{
+					"zip": "76401",
+					"countyname": "Erath",
+					"pop": 30003
+				},
+				{
+					"zip": "76402",
+					"countyname": "Erath",
+					"pop": 953
+				}
+			]
+		},
+		"Sugar Land": {
+			"ip_addresses": [
+				"12.205.32.",
+				"50.162.51.",
+				"50.171.38.",
+				"64.61.53."
+			],
+			"zip_codes": [
+				{
+					"zip": "77478",
+					"countyname": "Fort Bend",
+					"pop": 25721
+				},
+				{
+					"zip": "77479",
+					"countyname": "Fort Bend",
+					"pop": 93848
+				},
+				{
+					"zip": "77498",
+					"countyname": "Fort Bend",
+					"pop": 51293
+				}
+			]
+		},
+		"Temple": {
+			"ip_addresses": ["24.162.122."],
+			"zip_codes": [
+				{
+					"zip": "76501",
+					"countyname": "Bell",
+					"pop": 16710
+				},
+				{
+					"zip": "76502",
+					"countyname": "Bell",
+					"pop": 42103
+				},
+				{
+					"zip": "76504",
+					"countyname": "Bell",
+					"pop": 23756
+				},
+				{
+					"zip": "76508",
+					"countyname": "Bell",
+					"pop": 7
+				}
+			]
+		},
+		"Texarkana": {
+			"ip_addresses": ["24.119.145."],
+			"zip_codes": [
+				{
+					"zip": "75501",
+					"countyname": "Bowie",
+					"pop": 36094
+				},
+				{
+					"zip": "75503",
+					"countyname": "Bowie",
+					"pop": 25517
+				}
+			]
+		},
+		"Tyler": {
+			"ip_addresses": [
+				"23.125.229.",
+				"66.76.117.",
+				"66.76.230.",
+				"67.216.244.",
+				"68.69.62."
+			],
+			"zip_codes": [
+				{
+					"zip": "75701",
+					"countyname": "Smith",
+					"pop": 35858
+				},
+				{
+					"zip": "75702",
+					"countyname": "Smith",
+					"pop": 27698
+				},
+				{
+					"zip": "75703",
+					"countyname": "Smith",
+					"pop": 42777
+				},
+				{
+					"zip": "75704",
+					"countyname": "Smith",
+					"pop": 10199
+				},
+				{
+					"zip": "75705",
+					"countyname": "Smith",
+					"pop": 2762
+				},
+				{
+					"zip": "75706",
+					"countyname": "Smith",
+					"pop": 10449
+				},
+				{
+					"zip": "75707",
+					"countyname": "Smith",
+					"pop": 14232
+				},
+				{
+					"zip": "75708",
+					"countyname": "Smith",
+					"pop": 7698
+				},
+				{
+					"zip": "75709",
+					"countyname": "Smith",
+					"pop": 4731
+				}
+			]
+		},
+		"Vernon": {
+			"ip_addresses": ["24.32.200."],
+			"zip_codes": [
+				{
+					"zip": "76384",
+					"countyname": "Wilbarger",
+					"pop": 12179
+				}
+			]
+		},
+		"Victoria": {
+			"ip_addresses": ["66.76.84."],
+			"zip_codes": [
+				{
+					"zip": "77901",
+					"countyname": "Victoria",
+					"pop": 43052
+				},
+				{
+					"zip": "77904",
+					"countyname": "Victoria",
+					"pop": 28202
+				},
+				{
+					"zip": "77905",
+					"countyname": "Victoria",
+					"pop": 14834
+				}
+			]
+		},
+		"Waco": {
+			"ip_addresses": ["23.123.184.", "65.65.52."],
+			"zip_codes": [
+				{
+					"zip": "76701",
+					"countyname": "McLennan",
+					"pop": 1895
+				},
+				{
+					"zip": "76704",
+					"countyname": "McLennan",
+					"pop": 7956
+				},
+				{
+					"zip": "76705",
+					"countyname": "McLennan",
+					"pop": 31734
+				},
+				{
+					"zip": "76706",
+					"countyname": "McLennan",
+					"pop": 39221
+				},
+				{
+					"zip": "76707",
+					"countyname": "McLennan",
+					"pop": 15688
+				},
+				{
+					"zip": "76708",
+					"countyname": "McLennan",
+					"pop": 27964
+				},
+				{
+					"zip": "76710",
+					"countyname": "McLennan",
+					"pop": 24837
+				},
+				{
+					"zip": "76711",
+					"countyname": "McLennan",
+					"pop": 9988
+				},
+				{
+					"zip": "76798",
+					"countyname": "McLennan",
+					"pop": 1591
+				}
+			]
+		},
+		"Weatherford": {
+			"ip_addresses": ["12.94.58."],
+			"zip_codes": [
+				{
+					"zip": "76085",
+					"countyname": "Parker",
+					"pop": 11014
+				},
+				{
+					"zip": "76086",
+					"countyname": "Parker",
+					"pop": 23699
+				},
+				{
+					"zip": "76087",
+					"countyname": "Parker",
+					"pop": 27760
+				},
+				{
+					"zip": "76088",
+					"countyname": "Parker",
+					"pop": 11907
+				}
+			]
+		},
+		"Wichita Falls": {
+			"ip_addresses": ["66.69.161."],
+			"zip_codes": [
+				{
+					"zip": "76301",
+					"countyname": "Wichita",
+					"pop": 14757
+				},
+				{
+					"zip": "76302",
+					"countyname": "Wichita",
+					"pop": 13482
+				},
+				{
+					"zip": "76305",
+					"countyname": "Wichita",
+					"pop": 4261
+				},
+				{
+					"zip": "76306",
+					"countyname": "Wichita",
+					"pop": 14980
+				},
+				{
+					"zip": "76308",
+					"countyname": "Wichita",
+					"pop": 19493
+				},
+				{
+					"zip": "76309",
+					"countyname": "Wichita",
+					"pop": 12991
+				},
+				{
+					"zip": "76310",
+					"countyname": "Wichita",
+					"pop": 19187
+				}
+			]
+		}
+	}
+}

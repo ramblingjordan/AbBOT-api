@@ -2,7 +2,7 @@ from queue import Queue
 from typing import Mapping, List, cast
 from helpers import model
 from helpers.typos import add_typos
-from helpers.typing import APIMapping, JSONType, ZIPCode
+from helpers.typing import APIMapping, JSONType, ZIPCode, City
 from helpers.random import WeightedLists, WeightedTuples, weighted_choice
 
 from faker import Faker
@@ -185,9 +185,19 @@ abortion_ban_words.extend(
 )
 abortion_modifiers = [[0.5, ""], [0.1, " illegal"], [0.1, " unlawful"], [0.1, " illicit"], [0.05, " aspiration"]]
 
-zip_codes: List[ZIPCode] = load_data('zip_codes')['TX']
-ip_addresses: Mapping[str, List[str]] = load_data('ip_addresses')['TX']
+cities: List[City] = load_data('texas')['cities']
 doctors = load_data('doctors')['TX']
+
+city_weights = []
+i = 0
+for city in list(cities):
+  weight = 0
+  for zip_code in cities[city]["zip_codes"]:
+    weight += zip_code["pop"]
+  if i > 0:
+    weight += city_weights[i - 1]
+  city_weights.append(weight)
+  i += 1
 
 
 def anonymous_form() -> JSONType:
@@ -195,13 +205,21 @@ def anonymous_form() -> JSONType:
   queues['/anonymous-form'].task_done()
 
   fake: Faker = Faker(['en_US', 'es_MX'])
-  location: ZIPCode = random.choice(list(zip_codes))
+  city: City = random.choices(list(cities), cum_weights=city_weights, k=1)[0]
 
-  ip_address: str
-  if location['city'] in ip_addresses:
-    ip_address = random.choice(ip_addresses[location['city']])
-  else:
-    ip_address = random.choice(random.choice(list(ip_addresses.values())))
+  zip_weights = []
+  i = 0
+  for zip_code in cities[city]["zip_codes"]:
+    weight = zip_code['pop']
+    if i > 0:
+      weight += zip_weights[i - 1]
+    zip_weights.append(weight)
+    i += 1
+  zip_obj: ZIPCode = random.choices(cities[city]["zip_codes"], cum_weights=zip_weights, k=1)[0]
+  zip_code: str = zip_obj['zip']
+  county: str = zip_obj['countyname']
+
+  ip_address: str = random.choice(cities[city]["ip_addresses"])
   ip_address += str(random.randint(0, 255))
 
   doctor: str = random.choice(doctors)
@@ -214,18 +232,16 @@ def anonymous_form() -> JSONType:
     ]
   )
 
-  text_sequence = model.clean_text(
-    text_sequence, location['city'], ['tx', 'TX', 'Texas', 'TEXAS'], ['US', 'USA', 'United States', 'America']
-  )
+  text_sequence = model.clean_text(text_sequence, city, ['tx', 'TX', 'Texas', 'TEXAS'], ['US', 'USA', 'United States', 'America'])
   text_sequence = add_typos(text_sequence)
   return {
     'violation': text_sequence,
     'obtained_evidence_from': obtained_evidence_from,
     'clinic_or_doctor': doctor,
-    'city': location['city'],
+    'city': city,
     'state': random.choice(['tx', 'TX', 'Texas', 'TEXAS']),
-    'zip_code': location['zip'],
-    'county': location['county'],
+    'zip_code': zip_code,
+    'county': county,
     'ip_address': ip_address,
     'elected_to_public_office': 'no',
   }
