@@ -19,9 +19,8 @@ COPY data/ ./data/
 COPY helpers/ ./helpers/
 COPY main.py ./main.py
 
-# Port to serve inference engine on
-# Expose port 5000 or whatever is set in API_PORT environment variable
+# Exposes the specified port, or 5000, to Docker.
 ENV API_PORT=5000
-EXPOSE ${API_PORT} ${API_PORT}/tcp
+EXPOSE ${API_PORT}
 
 CMD ["python3", "main.py"]
