@@ -7,6 +7,7 @@ from helpers.random import WeightedLists, WeightedTuples, weighted_choice
 
 from faker import Faker
 import random
+import ipaddress
 from helpers.typing import JSONType
 from data import load_data
 
@@ -185,9 +186,18 @@ abortion_ban_words.extend(
 )
 abortion_modifiers = [[0.5, ""], [0.1, " illegal"], [0.1, " unlawful"], [0.1, " illicit"], [0.05, " aspiration"]]
 
-zip_codes: List[ZIPCode] = load_data('zip_codes')['TX']
-ip_addresses: Mapping[str, List[str]] = load_data('ip_addresses')['TX']
+zip_codes = load_data('texas')
 doctors = load_data('doctors')['TX']
+
+zip_weights = []
+i = 0
+for zip_code in zip_codes:
+  weight = 0
+  weight += zip_codes[zip_code]["pop"]
+  if i > 0:
+    weight += zip_weights[i - 1]
+  zip_weights.append(weight)
+  i += 1
 
 
 def anonymous_form() -> JSONType:
@@ -195,14 +205,12 @@ def anonymous_form() -> JSONType:
   queues['/anonymous-form'].task_done()
 
   fake: Faker = Faker(['en_US', 'es_MX'])
-  location: ZIPCode = random.choice(list(zip_codes))
-
-  ip_address: str
-  if location['city'] in ip_addresses:
-    ip_address = random.choice(ip_addresses[location['city']])
-  else:
-    ip_address = random.choice(random.choice(list(ip_addresses.values())))
-  ip_address += str(random.randint(0, 255))
+  
+  zip_code: str = random.choices(list(zip_codes), cum_weights=zip_weights, k=1)[0]
+  zip_obj: ZIPCode = zip_codes[zip_code]
+  city: str = zip_obj['city']
+  county: str = zip_obj['county']
+  ip_address: str = format(random.choice(list(ipaddress.ip_network(random.choice(zip_obj['ip_address_ranges'])).hosts())))
 
   doctor: str = random.choice(doctors)
   doctor = random.choice([f'Dr. {doctor}', f'Dr. {fake.first_name()} {doctor}', doctor, f'Dr. {fake.first_name()[0]}. {doctor}'])
@@ -214,18 +222,16 @@ def anonymous_form() -> JSONType:
     ]
   )
 
-  text_sequence = model.clean_text(
-    text_sequence, location['city'], ['tx', 'TX', 'Texas', 'TEXAS'], ['US', 'USA', 'United States', 'America']
-  )
+  text_sequence = model.clean_text(text_sequence, city, ['tx', 'TX', 'Texas', 'TEXAS'], ['US', 'USA', 'United States', 'America'])
   text_sequence = add_typos(text_sequence)
   return {
     'violation': text_sequence,
     'obtained_evidence_from': obtained_evidence_from,
     'clinic_or_doctor': doctor,
-    'city': location['city'],
+    'city': city,
     'state': random.choice(['tx', 'TX', 'Texas', 'TEXAS']),
-    'zip_code': location['zip'],
-    'county': location['county'],
+    'zip_code': zip_code,
+    'county': county,
     'ip_address': ip_address,
     'elected_to_public_office': 'no',
   }

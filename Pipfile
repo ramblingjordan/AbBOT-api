@@ -17,6 +17,7 @@ locationtagger = "*"
 nltk = "*"
 types-requests = "*"
 mypy = "*"
+win32-setctime = {version = "*", sys_platform = "== 'win32'"}
 
 [dev-packages]
 yapf = "*"
