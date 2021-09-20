@@ -42,10 +42,10 @@ After that, start the inference engine.
 
 ```bash
 # Normal
-docker container run --rm dev-abbot-model
+docker container run -p 5000:5000 --rm dev-abbot-model
 
 # Specify environment variables
-docker container run -e MODEL_NAME='gpt2' -e API_BATCH_SIZE='5' -e ALLOWED_APIS='*' --rm dev-abbot-model
+docker container run -e MODEL_NAME='gpt2' -e API_BATCH_SIZE='5' -e ALLOWED_APIS='*' -e API_PORT='8080' -p 8080:8080 --rm dev-abbot-model
 ```
 
 After the container starts up, you're ready to go.
@@ -105,9 +105,9 @@ chmod +x ./main.py
 ./main.py
 
 # Specify environment variables (Bourne shell and related shells)
-MODEL_NAME='gpt2' -e API_BATCH_SIZE='5' -e ALLOWED_APIS='*' python3 ./main.py
+MODEL_NAME='gpt2' -e API_BATCH_SIZE='5' -e ALLOWED_APIS='*' API_PORT='8080' python3 ./main.py
 # or set environment variables for whole session
-export MODEL_NAME='gpt2' -e API_BATCH_SIZE='5' -e ALLOWED_APIS='*'
+export MODEL_NAME='gpt2' -e API_BATCH_SIZE='5' -e ALLOWED_APIS='*' API_PORT='8080'
 python3 ./main.py
 ```
 
@@ -116,14 +116,14 @@ python3 ./main.py
 You can test the API with a simple curl command. If you add `-i` you can also see the headers. Bear in mind that the text generation models will take several minutes to start up and fill up the queues.
 
 ```bash
-curl http://0.0.0.0:5000/prolifewhistleblower/anonymous-form
+curl http://localhost:5000/prolifewhistleblower/anonymous-form
 ```
 
 #### Expected output format
 
 ##### Successful requests
 
-The data will be sent back through the response body as JSON. This JSON is generated directly by each API point individually so the format will vary between API paths. For example, the following output is the output of the `curl -i http://0.0.0.0:5000/prolifewhistleblower/anonymous-form` command.
+The data will be sent back through the response body as JSON. This JSON is generated directly by each API point individually so the format will vary between API paths. For example, the following output is the output of the `curl -i http://localhost:5000/prolifewhistleblower/anonymous-form` command.
 
 ```http
 HTTP/1.0 200 OK
@@ -184,3 +184,7 @@ Date: Sat, 11 Sep 2021 23:03:46 GMT
 # Contributing
 
 TODO: add instructions on how to contribute.
+
+## Formatting
+
+Before committing your code each time, please format your code with `yapf`. If you think the style should be different, please open an issue or PR about the `.style.yapf` file. VS Code can be configured to use `yapf` and so can other editors. If you do not have an editor with automatic formatting that supports `yapf`, you can use `yapf` directly with `yapf -ri .`.
