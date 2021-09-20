@@ -2,10 +2,10 @@ from typing import Any, Callable, Mapping, TypedDict
 
 
 class ZIPCode(TypedDict):
-  zip: str
   city: str
   county: str
   pop: int
+  ip_address_ranges: list[str]
 
 
 JSONType = Any

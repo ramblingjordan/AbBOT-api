@@ -5,7 +5,7 @@ import re
 
 
 def generate_odds():
-  return 1.0 - (random.betavariate(0.5, 0.15) * 0.3 + 0.699995)
+  return 1.0 - (random.betavariate(0.5, 0.15) * 0.025 + 0.97444444445)
 
 
 class Odds(TypedDict):
